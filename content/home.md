@@ -5,8 +5,8 @@
 <a href="https://www.printables.com/@MarsRider_607948" target="_blank" rel="noopener" title="Printables"><img src="https://ssl.gstatic.com/atari/images/sociallinks/link_white_44dp.png" alt="Printables"></a>
 <a href="https://www.instagram.com/marcofix.01/" target="_blank" rel="noopener" title="Instagram"><img src="https://ssl.gstatic.com/atari/images/sociallinks/instagram_white_44dp.png" alt="Instagram"></a>
 <a href="https://github.com/Mars-Rider" target="_blank" rel="noopener" title="GitHub"><img src="https://ssl.gstatic.com/atari/images/sociallinks/github_white_44dp.png" alt="GitHub"></a>
-<a href="https://www.flickr.com/photos/198914131@N02/" target="_blank" rel="noopener" title="Flickr"><img src="https://ssl.gstatic.com/atari/images/sociallinks/link_white_44dp.png" alt="Flickr"></a><a href="https://www.strava.com/athletes/137689175" target="_blank" rel="noopener" title="Strava"><img src="https://ssl.gstatic.com/atari/images/sociallinks/link_white_44dp.png" alt="Strava"></a>
-<a href="https://www.linkedin.com/in/marco-fissore-6845a3382/" target="_blank" rel="noopener" title="Strava"><img src="https://ssl.gstatic.com/atari/images/sociallinks/link_white_44dp.png" alt="Linked In"></a>
+<a href="https://www.flickr.com/photos/198914131@N02/" target="_blank" rel="noopener" title="Flickr"><img src="https://ssl.gstatic.com/atari/images/sociallinks/link_white_44dp.png" alt="Flickr"></a><a href="https://www.strava.com/athletes/137689175" target="_blank" rel="noopener" title="Strava"><img src="https://images.icon-icons.com/2429/PNG/512/strava_logo_icon_147232.png" alt="Strava"></a>
+<a href="https://www.linkedin.com/in/marco-fissore-6845a3382/" target="_blank" rel="noopener" title="Linked In"><img src="https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="Linked In"></a>
 </div>
 </div>
 <p class="hero-tagline">A running website will all my projects, in rocketry, robotics, or photos/videos</p>
