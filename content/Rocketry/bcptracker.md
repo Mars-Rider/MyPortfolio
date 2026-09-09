@@ -2,6 +2,8 @@
 
 This fully custom circuit board uses surface-mount components (SMD) to deliver a compact, affordable, and integrated flight computer and tracking system designed specifically for model rockets. Built to fly on the initial launch of the **Bronc II** rocket, it handles primary flight control, real-time telemetry, and dual-stage recovery deployment.
 
+![BCP Tracker Pinout](src/assets/Tracker.png)
+
 ---
 
 ### Key Features & Hardware

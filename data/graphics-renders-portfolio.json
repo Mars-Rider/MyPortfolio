@@ -14,6 +14,15 @@
         { "file": "https://lh3.googleusercontent.com/d/1fbij4Tpq5HHW4duFzgg0pFb9ZppvJVgW" },
         { "file": "https://lh3.googleusercontent.com/d/1DPVNXVL6OwryrHkf3f1m1asxF4hqHF1q" }
       ]
+    },{
+      "id": "logos",
+      "title": "Logos",
+      "description": "All my logos I have made for my self or clubs I lead",
+      "items": [
+        {
+          "file": "src/favicon/Icon.png", "type": "file"
+        }
+      ]
     }
   ]
 }

@@ -54,37 +54,69 @@
     var codeStash = [];
     text = text.replace(/`([^`]+)`/g, function (_, code) {
       codeStash.push(escapeHtml(code));
-      return '\u0000CODE' + (codeStash.length - 1) + '\u0000';
+      return "\u0000CODE" + (codeStash.length - 1) + "\u0000";
     });
 
-    // images ![alt](src "title")
-    text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)/g,
-      function (_, alt, src, title) {
-        var t = title ? ' title="' + escapeHtml(title) + '"' : '';
-        return '<img src="' + resolveImageSrc(src) + '" alt="' + escapeHtml(alt) + '"' + t + ' loading="lazy">';
-      });
+    // images ![alt](src "title"){240px}
+    text = text.replace(
+      /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)(?:\{([^}]+)\})?/g,
+      function (_, alt, src, title, size) {
+        var t = title ? ' title="' + escapeHtml(title) + '"' : "";
+        var style = "";
+        if (size) {
+          var h = /^\d+$/.test(size.trim()) ? size.trim() + "px" : size.trim();
+          style = ' style="height:' + h + '; object-fit:cover; width:100%;"';
+        }
+        return (
+          '<img src="' +
+          resolveImageSrc(src) +
+          '" alt="' +
+          escapeHtml(alt) +
+          '"' +
+          t +
+          style +
+          ' loading="lazy">'
+        );
+      },
+    );
 
     // button-style links [button: Label](url)
-    text = text.replace(/\[button:\s*([^\]]+)\]\(([^)]+)\)/g, function (_, label, href) {
-      var ext = /^https?:\/\//.test(href) ? ' target="_blank" rel="noopener"' : '';
-      return '<a class="button-link" href="' + href + '"' + ext + '>' + label + ' \u2192</a>';
-    });
+    text = text.replace(
+      /\[button:\s*([^\]]+)\]\(([^)]+)\)/g,
+      function (_, label, href) {
+        var ext = /^https?:\/\//.test(href)
+          ? ' target="_blank" rel="noopener"'
+          : "";
+        return (
+          '<a class="button-link" href="' +
+          href +
+          '"' +
+          ext +
+          ">" +
+          label +
+          " \u2192</a>"
+        );
+      },
+    );
 
     // normal links [text](url)
     text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, function (_, label, href) {
-      var isHash = href.charAt(0) === '#';
-      var ext = (!isHash && /^https?:\/\//.test(href)) ? ' target="_blank" rel="noopener"' : '';
-      return '<a href="' + href + '"' + ext + '>' + label + '</a>';
+      var isHash = href.charAt(0) === "#";
+      var ext =
+        !isHash && /^https?:\/\//.test(href)
+          ? ' target="_blank" rel="noopener"'
+          : "";
+      return '<a href="' + href + '"' + ext + ">" + label + "</a>";
     });
 
     // bold + italic
-    text = text.replace(/\*\*\*([^*]+)\*\*\*/g, '<strong><em>$1</em></strong>');
-    text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
-    text = text.replace(/\b__([^_]+)__\b/g, '<strong>$1</strong>');
-    text = text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    text = text.replace(/\*\*\*([^*]+)\*\*\*/g, "<strong><em>$1</em></strong>");
+    text = text.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+    text = text.replace(/\b__([^_]+)__\b/g, "<strong>$1</strong>");
+    text = text.replace(/\*([^*]+)\*/g, "<em>$1</em>");
 
     text = text.replace(/\u0000CODE(\d+)\u0000/g, function (_, i) {
-      return '<code>' + codeStash[i] + '</code>';
+      return "<code>" + codeStash[i] + "</code>";
     });
 
     return text;

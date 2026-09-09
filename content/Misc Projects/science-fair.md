@@ -6,6 +6,8 @@ In 2023, I built a small-scale model smart house to analyze the energy consumpti
 
 The primary goal was to answer the question: **How do smart controls and solar panels affect the total energy consumption of a standard house?** Specifically, the project tested whether small solar panels could generate enough energy to completely offset the standby and operational power draw of smart controls.
 
+![House Render](src/assets/house1.png)
+
 ---
 
 ## Authors & Collaborators

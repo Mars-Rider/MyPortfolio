@@ -141,8 +141,11 @@
 
   function resolveGroupItems(group) {
     return (group.items || []).map(function (item) {
-      var rawSrc = isFullUrl(item.file) ? item.file : group.folder + '/' + item.file;
-      var resolved = global.MediaResolver ? global.MediaResolver.resolve(rawSrc, item.type) : { kind: 'image', src: rawSrc, thumbSrc: rawSrc };
+
+      if (!isFullUrl(item.file)){item.type = 'file';} // If it's not a full URL, treat it as a local file.
+      
+      var rawSrc = item.file;
+      var resolved = global.MediaResolver ? global.MediaResolver.resolve(rawSrc, item.type) : { kind: item.type, src: rawSrc, thumbSrc: rawSrc };
       return { resolved: resolved, caption: item.caption, groupTitle: group.title };
     });
   }
@@ -170,10 +173,6 @@
       '<span class="pf-caret">\u25B8</span></div>';
     header.addEventListener('click', function () { el.classList.toggle('open'); });
     el.appendChild(header);
-
-    if (group.folder) {
-      // Do something
-    }
 
     var body = document.createElement('div');
     body.className = 'pf-group-body';
@@ -233,7 +232,7 @@
       cell.appendChild(play);
     } else {
       var thumb = document.createElement('img');
-      thumb.src = resolved.thumbSrc + "=s200";
+      thumb.src = resolved.thumbSrc + (resolved.kind != 'file' ? "=s200" : "");
       thumb.alt = entry.caption || entry.groupTitle;
       thumb.loading = 'lazy';
       cell.appendChild(thumb);

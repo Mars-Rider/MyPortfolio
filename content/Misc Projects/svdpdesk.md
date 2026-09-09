@@ -2,7 +2,7 @@
 
 [button: Bike Maintenance Guide — Book Order (Slides)](https://docs.google.com/presentation/d/1gKWiWyxWSgN99HcQdM1knnjP64UKGpxeJHGqrXbO2e8/present)
 
-![Bike Desk](https://lh3.googleusercontent.com/sitesv/AG8ngQWLDmd0ZhKjI1Vbm7tnH9yUrPhwiajfjQfJC2OBCFglpj2-xkEwQHyr7-SFmsg7hssBvLuO9HhgRsvYHpk2QjRqquKID_gHhiXU5oDpPqtIzWGSq1g4fPGkPTOqu7G-eOCqJFCMCsBfdNiDKtuyVccoskwczwHl1yfZ7ARWP8n-uEnxfg3AwoeyQk93jplxi4kv0GljndAOKn9Z7GmlUPzQxKgWX09o3X8SrRQBSyA)
+![Bike Desk](https://lh3.googleusercontent.com/sitesv/AG8ngQWLDmd0ZhKjI1Vbm7tnH9yUrPhwiajfjQfJC2OBCFglpj2-xkEwQHyr7-SFmsg7hssBvLuO9HhgRsvYHpk2QjRqquKID_gHhiXU5oDpPqtIzWGSq1g4fPGkPTOqu7G-eOCqJFCMCsBfdNiDKtuyVccoskwczwHl1yfZ7ARWP8n-uEnxfg3AwoeyQk93jplxi4kv0GljndAOKn9Z7GmlUPzQxKgWX09o3X8SrRQBSyA){400px}
 
 This project was also written about in an article on St. Vincent de Paul's website. [button: Check it out here](https://www.stvincentdepaul.net/news/cycling-sustainability)
 
@@ -65,6 +65,8 @@ This design is the same as version 1, but instead of using 3 linear voltage regu
 ## Electronics
 
 When researching the circuit I found a video that explained how to convert AC to DC for the electronics. I tried to build it in Tinkercad, but the capacitor made the web app freeze — so instead I used LTSpice for the simulations, with a 20Ω resistor to match the resistance of the lights used in in-person testing. These simulations helped figure out what circuit to use, though values like the capacitor still needed to be worked out.
+
+![Electronics Schematic](src/assets/bikeschema.png)
 
 The circuit is a full-wave rectifier. First, the AC energy passes through a full-wave rectifier made from 4 diodes, turning the negative half of the AC wave positive — but there's still a large jump as the energy fluctuates from 0 to the dynamo's max voltage. A capacitor smooths that ripple. A DC-DC converter or linear regulator then produces the steady DC current the phones charge with. The regulators and converters used have a minimum ripple tolerance of 100mV, so the capacitor (starting at 4700uF) needed to be sized to match.
 

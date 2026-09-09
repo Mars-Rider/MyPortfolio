@@ -18,10 +18,10 @@
   --text-dim: #a3b0ad;
   --text-faint: #6d7a78;
 
-  --red: #e2726e;
-  --red-bright: #ee9490;
-  --teal: #57c2d6;
-  --teal-bright: #82d7e6;
+  --red: #e33b40;
+  --red-bright: #e2726e;
+  --teal: #049cce;
+  --teal-bright: #57c2d6;
 
   --shape-fill: rgba(255, 255, 255, 0.045);
   --shadow: rgba(0, 0, 0, 0.5);
@@ -47,7 +47,7 @@
 }
 
 :root {
-  --radius: 3px;
+  --radius: 5px;
   --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
   --sans: 'Anaheim', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --header-h: 60px;
@@ -150,12 +150,20 @@ a:hover {
 }
 
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
   font-family: var(--mono);
   font-weight: 700;
   font-size: 16px;
   color: var(--text);
   letter-spacing: 0.02em;
   white-space: nowrap;
+}
+
+.brand img {
+  width: 35px;
 }
 
 .brand:hover {
@@ -171,7 +179,7 @@ a:hover {
   margin-left: auto;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .icon-btn {
@@ -309,7 +317,6 @@ a:hover {
   background: var(--bg-panel);
   opacity: 0.85;
   border: 1px solid var(--line);
-  border-left: none;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
@@ -595,6 +602,10 @@ a:hover {
   font-size: 11px;
   fill: var(--text);
   pointer-events: none;
+
+  display: block;
+  white-space: normal;
+  word-break: break-word;
 }
 
 .landing-diagram-detail {

@@ -4,6 +4,11 @@ This model rocket is a finless, thrust-vector-controlled (TVC) system constructe
 
 Unlike traditional model rockets that rely on passive fins for stability, this design actively stabilizes itself using thrust vectoring. A pair of servo motors dynamically adjusts the motor’s orientation along two axes, actively counteracting rotational torque caused by wind and asymmetric aerodynamic forces from structural imperfections.
 
+
+## Rover TVC
+
+The board powering this
+
 ---
 
 ### Core Features
@@ -12,3 +17,4 @@ Unlike traditional model rockets that rely on passive fins for stability, this d
 * **Closed-Loop PID Control:** Uses real-time sensor feedback from a 6-axis Inertial Measurement Unit (IMU) to continuously maintain pitch and yaw stability.
 * **Universal PID Tuning:** Integrates core physics and mathematical modeling, enabling a one-time PID tuning configuration that adapts to any motor size.
 * **Custom Hardware:** Built using lightweight cardboard structure (Pringles cans), precision 3D-printed mounting components, and custom Arduino microcontrollers.
+
