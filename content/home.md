@@ -17,6 +17,6 @@
 
 This Bike/Desk was made for St. Vincent De Paul for my Eagle Scout Project. The concept behind it is that while you sit at the desk at work, you can plug in your phone, iPad, or anything else that is controllable from a USB A port. The connected device is charged/powered when you pedal the bike.
 
-[button: See the full write-up](#/bike-desk)
+[button: See the full write-up](#/svdpdesk)
 
 > **Please Note:** This site is a work in progress and I add and update my projects and portfolio. There is always more to come :)

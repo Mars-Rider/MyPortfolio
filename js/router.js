@@ -3,35 +3,61 @@
  * flattened nav map, and renders either:
  *   - a markdown page (fetches the .md file, runs it through TinyMD)
  *   - a portfolio gallery (fetches a data/*-portfolio.json manifest and
- *     builds the dropdown/flex galleries). A file path can end in
- *     "#group-id" to show just that one gallery group (used by e.g. the
- *     Outdoors section to point at one group inside photography-portfolio).
+ *     builds the dropdown/flex galleries, low-res thumbs + arrow-key
+ *     navigation in the lightbox)
  * External nav entries never hit the router — they're plain <a> links.
  */
 (function (global) {
   var contentEl;
-  var navIndex = null; // { map, parentOf, tree }
+  var navIndex = null;
   var mdCache = {};
   var jsonCache = {};
 
+  // Lightbox state: the array belongs to whichever gallery is currently
+  // open, so prev/next just walks it — no re-fetching, no rebuilding.
+  var lightboxEl = null;
+  var lightboxMediaEl = null;
+  var lightboxItems = [];
+  var lightboxIndex = 0;
+
   function currentId() {
     var hash = location.hash || '#/home';
-    var id = hash.replace(/^#\/?/, '').split('?')[0].split('#')[0];
-    return id || 'home';
+    return hash.replace(/^#\/?/, '').split('?')[0].split('#')[0] || 'home';
   }
 
   function ensureInstagramEmbeds(container) {
     if (!container.querySelector('.instagram-media')) return;
-    if (global.instgrm && global.instgrm.Embeds) {
-      global.instgrm.Embeds.process();
-      return;
-    }
-    if (document.getElementById('instagram-embed-script')) return; // already loading
+    if (global.instgrm && global.instgrm.Embeds) { global.instgrm.Embeds.process(); return; }
+    if (document.getElementById('instagram-embed-script')) return;
     var s = document.createElement('script');
     s.id = 'instagram-embed-script';
     s.async = true;
     s.src = 'https://www.instagram.com/embed.js';
     document.body.appendChild(s);
+  }
+
+  function prettyTag(tag) {
+    var part = tag.indexOf('.') > -1 ? tag.split('.')[1] : tag;
+    return part.replace(/-/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase(); });
+  }
+
+  function addTagBadges(article, node) {
+    if (!node.tags || !node.tags.length) return;
+    var h1 = article.querySelector('h1');
+    if (!h1) return;
+    var row = document.createElement('div');
+    row.className = 'tag-row';
+    var uniq = {};
+    node.tags.forEach(function (t) {
+      var text = prettyTag(t);
+      if (uniq[text]) return;
+      uniq[text] = true;
+      var span = document.createElement('span');
+      span.className = 'tag-badge';
+      span.textContent = text;
+      row.appendChild(span);
+    });
+    h1.insertAdjacentElement('afterend', row);
   }
 
   function renderMarkdownPage(node) {
@@ -47,10 +73,9 @@
       var article = document.createElement('article');
       article.className = 'page';
       article.innerHTML = TinyMD.render(md);
+      addTagBadges(article, node);
 
-      if (node.id === 'home') {
-        article.appendChild(Landing.renderSections(navIndex.tree));
-      }
+      if (node.id === 'home') article.appendChild(Landing.renderSections(navIndex.tree));
 
       contentEl.innerHTML = '';
       contentEl.appendChild(article);
@@ -59,8 +84,7 @@
       ensureInstagramEmbeds(article);
       OutlineContent.render(navIndex, article, node.id);
     }).catch(function (err) {
-      contentEl.innerHTML = '<article class="page"><h1>Page unavailable</h1><p>' +
-        'Could not load <code>' + node.file + '</code>. ' + err.message + '</p></article>';
+      contentEl.innerHTML = '<article class="page"><h1>Page unavailable</h1><p>Could not load <code>' + node.file + '</code>. ' + err.message + '</p></article>';
     });
   }
 
@@ -87,6 +111,7 @@
       var h1 = document.createElement('h1');
       h1.textContent = node.title;
       article.appendChild(h1);
+      addTagBadges(article, node);
 
       if (!onlyGroupId && data.intro) {
         var p = document.createElement('p');
@@ -97,19 +122,28 @@
 
       var groupsWrap = document.createElement('div');
       groupsWrap.className = 'portfolio-groups';
-
       var groups = onlyGroupId ? data.groups.filter(function (g) { return g.id === onlyGroupId; }) : data.groups;
-      groups.forEach(function (group, idx) {
-        groupsWrap.appendChild(buildPortfolioGroup(group, onlyGroupId ? true : false));
+      // All groups start closed, unless we've drilled into exactly one.
+      groups.forEach(function (group) {
+        groupsWrap.appendChild(buildPortfolioGroup(group, !!onlyGroupId));
       });
 
       article.appendChild(groupsWrap);
       contentEl.innerHTML = '';
       contentEl.appendChild(article);
-      ensureLightbox();
       OutlineContent.render(navIndex, article, node.id);
     }).catch(function (err) {
       contentEl.innerHTML = '<article class="page"><h1>' + node.title + '</h1><p>Could not load the gallery manifest. ' + err.message + '</p></article>';
+    });
+  }
+
+  function isFullUrl(str) { return /^https?:\/\//.test(str); }
+
+  function resolveGroupItems(group) {
+    return (group.items || []).map(function (item) {
+      var rawSrc = isFullUrl(item.file) ? item.file : group.folder + '/' + item.file;
+      var resolved = global.MediaResolver ? global.MediaResolver.resolve(rawSrc, item.type) : { kind: 'image', src: rawSrc, thumbSrc: rawSrc };
+      return { resolved: resolved, caption: item.caption, groupTitle: group.title };
     });
   }
 
@@ -139,16 +173,16 @@
     if (!group.items || group.items.length === 0) {
       var empty = document.createElement('div');
       empty.className = 'pf-empty';
-      empty.innerHTML = 'No photos here yet. Drop files into ' +
-        '<code>' + group.folder + '/</code> (or paste a Google Drive share link as ' +
-        '<code>"file"</code>) and add them to the <code>items</code> array for ' +
-        '<code>' + group.id + '</code>.';
+      empty.innerHTML = 'No photos here yet. Drop files into <code>' + group.folder + '/</code> ' +
+        '(or paste a Google Drive share link as <code>"file"</code>) and add them to the ' +
+        '<code>items</code> array for <code>' + group.id + '</code>.';
       body.appendChild(empty);
     } else {
+      var resolvedItems = resolveGroupItems(group);
       var grid = document.createElement('div');
       grid.className = 'pf-grid';
-      group.items.forEach(function (item) {
-        grid.appendChild(buildPortfolioItem(group, item));
+      resolvedItems.forEach(function (entry, i) {
+        grid.appendChild(buildPortfolioItem(entry, resolvedItems, i));
       });
       body.appendChild(grid);
     }
@@ -157,83 +191,104 @@
     return el;
   }
 
-  function isFullUrl(str) { return /^https?:\/\//.test(str); }
-
-  function buildPortfolioItem(group, item) {
-    var rawSrc = isFullUrl(item.file) ? item.file : group.folder + '/' + item.file;
-    var hint = item.type; // 'image' | 'video' | 'svg' | undefined
-    var resolved = global.MediaResolver ? global.MediaResolver.resolve(rawSrc, hint) : { kind: 'image', src: rawSrc };
-
+  function buildPortfolioItem(entry, siblingItems, index) {
+    var resolved = entry.resolved;
     var cell = document.createElement('div');
     cell.className = 'pf-item';
 
-    if (resolved.kind === 'video-embed') {
-      var iframe = document.createElement('iframe');
-      iframe.src = resolved.src;
-      iframe.loading = 'lazy';
-      iframe.setAttribute('allow', 'autoplay');
-      cell.appendChild(iframe);
-      var tagE = document.createElement('span');
-      tagE.className = 'pf-tag';
-      tagE.textContent = 'video';
-      cell.appendChild(tagE);
-      cell.addEventListener('click', function () { openLightbox(resolved, item.caption); });
-      return cell;
-    }
-
-    if (resolved.kind === 'video-file') {
-      var video = document.createElement('video');
-      video.src = resolved.src;
-      video.muted = true;
-      video.setAttribute('playsinline', '');
-      cell.appendChild(video);
-      var tag = document.createElement('span');
-      tag.className = 'pf-tag';
-      tag.textContent = 'video';
-      cell.appendChild(tag);
+    if (resolved.kind === 'video-embed' || resolved.kind === 'video-file') {
+      // Grid shows a cheap low-res thumbnail with a play glyph, never the
+      // real player/full video — that only loads once the lightbox opens.
+      if (resolved.kind === 'video-embed') {
+        var img = document.createElement('img');
+        img.src = resolved.thumbSrc;
+        img.alt = entry.caption || entry.groupTitle;
+        img.loading = 'lazy';
+        cell.appendChild(img);
+      } else {
+        var video = document.createElement('video');
+        video.src = resolved.thumbSrc;
+        video.preload = 'metadata';
+        video.muted = true;
+        video.setAttribute('playsinline', '');
+        cell.appendChild(video);
+      }
+      var play = document.createElement('span');
+      play.className = 'pf-play';
+      cell.appendChild(play);
     } else {
-      var img = document.createElement('img');
-      img.src = resolved.src;
-      img.alt = item.caption || group.title;
-      img.loading = 'lazy';
-      cell.appendChild(img);
+      var thumb = document.createElement('img');
+      thumb.src = resolved.thumbSrc + "=s200";
+      thumb.alt = entry.caption || entry.groupTitle;
+      thumb.loading = 'lazy';
+      cell.appendChild(thumb);
     }
 
-    cell.addEventListener('click', function () { openLightbox(resolved, item.caption); });
+    cell.addEventListener('click', function () { openLightbox(siblingItems, index); });
     return cell;
   }
 
+  // ---- lightbox: built once, reused for every gallery ----
   function ensureLightbox() {
-    if (document.getElementById('lightbox')) return;
-    var lb = document.createElement('div');
-    lb.id = 'lightbox';
-    lb.className = 'lightbox';
-    lb.innerHTML = '<button class="lightbox-close" type="button" aria-label="Close">\u2715</button><div class="lightbox-media"></div>';
-    lb.addEventListener('click', function (e) {
-      if (e.target === lb || e.target.classList.contains('lightbox-close')) closeLightbox();
+    if (lightboxEl) return;
+    lightboxEl = document.createElement('div');
+    lightboxEl.id = 'lightbox';
+    lightboxEl.className = 'lightbox';
+    lightboxEl.innerHTML =
+      '<button class="lightbox-close" type="button" aria-label="Close">\u2715</button>' +
+      '<button class="lightbox-nav lightbox-prev" type="button" aria-label="Previous">\u2039</button>' +
+      '<div class="lightbox-media"></div>' +
+      '<button class="lightbox-nav lightbox-next" type="button" aria-label="Next">\u203A</button>';
+    document.body.appendChild(lightboxEl);
+    lightboxMediaEl = lightboxEl.querySelector('.lightbox-media');
+
+    lightboxEl.addEventListener('click', function (e) {
+      if (e.target === lightboxEl || e.target.classList.contains('lightbox-close')) closeLightbox();
     });
-    document.body.appendChild(lb);
+    lightboxEl.querySelector('.lightbox-prev').addEventListener('click', function () { stepLightbox(-1); });
+    lightboxEl.querySelector('.lightbox-next').addEventListener('click', function () { stepLightbox(1); });
+
+    document.addEventListener('keydown', function (e) {
+      if (!lightboxEl.classList.contains('open')) return;
+      if (e.key === 'ArrowLeft') stepLightbox(-1);
+      else if (e.key === 'ArrowRight') stepLightbox(1);
+      else if (e.key === 'Escape') closeLightbox();
+    });
   }
 
-  function openLightbox(resolved, caption) {
-    ensureLightbox();
-    var lb = document.getElementById('lightbox');
-    var mediaWrap = lb.querySelector('.lightbox-media');
-    if (resolved.kind === 'video-embed') {
-      mediaWrap.innerHTML = '<iframe src="' + resolved.src + '" allow="autoplay" allowfullscreen></iframe>';
-    } else if (resolved.kind === 'video-file') {
-      mediaWrap.innerHTML = '<video src="' + resolved.src + '" controls autoplay></video>';
+  function renderLightboxMedia() {
+    var entry = lightboxItems[lightboxIndex];
+    var r = entry.resolved;
+    if (r.kind === 'video-embed') {
+      lightboxMediaEl.innerHTML = '<iframe src="' + r.src + '" allow="autoplay" allowfullscreen></iframe>';
+    } else if (r.kind === 'video-file') {
+      lightboxMediaEl.innerHTML = '<video src="' + r.src + '" controls autoplay preload="auto"></video>';
     } else {
-      mediaWrap.innerHTML = '<img src="' + resolved.src + '" alt="' + (caption || '') + '">';
+      lightboxMediaEl.innerHTML = '<img src="' + r.src + '" alt="' + (entry.caption || '') + '">';
     }
-    lb.classList.add('open');
+    var multi = lightboxItems.length > 1;
+    lightboxEl.querySelector('.lightbox-prev').style.display = multi ? '' : 'none';
+    lightboxEl.querySelector('.lightbox-next').style.display = multi ? '' : 'none';
+  }
+
+  function stepLightbox(dir) {
+    if (lightboxItems.length < 2) return;
+    lightboxIndex = (lightboxIndex + dir + lightboxItems.length) % lightboxItems.length;
+    renderLightboxMedia();
+  }
+
+  function openLightbox(items, index) {
+    ensureLightbox();
+    lightboxItems = items;
+    lightboxIndex = index;
+    renderLightboxMedia();
+    lightboxEl.classList.add('open');
   }
 
   function closeLightbox() {
-    var lb = document.getElementById('lightbox');
-    if (!lb) return;
-    lb.classList.remove('open');
-    lb.querySelector('.lightbox-media').innerHTML = '';
+    if (!lightboxEl) return;
+    lightboxEl.classList.remove('open');
+    lightboxMediaEl.innerHTML = ''; // drop the iframe/video so it stops loading/playing
   }
 
   function render() {
@@ -250,11 +305,8 @@
     global.OutlinePanel && global.OutlinePanel.close();
     window.scrollTo(0, 0);
 
-    if (node.type === 'portfolio') {
-      renderPortfolioPage(node);
-    } else {
-      renderMarkdownPage(node);
-    }
+    if (node.type === 'portfolio') renderPortfolioPage(node);
+    else renderMarkdownPage(node);
   }
 
   function init(tree) {
