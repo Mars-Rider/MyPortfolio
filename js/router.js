@@ -165,7 +165,7 @@
       (group.folder
         ? '<a class="pf-folder" aria-label="Open Photos Folder" href="' +
           group.folder +
-          '"> <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" > <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg> </a>'
+          '"> <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" > <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg> </a>'
         : "") +
       '<span class="pf-caret">\u25B8</span></div>';
     header.addEventListener('click', function () { el.classList.toggle('open'); });
