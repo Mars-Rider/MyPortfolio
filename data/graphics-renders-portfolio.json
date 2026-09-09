@@ -1,0 +1,12 @@
+{
+  "intro": "CAD renders, diagrams, and other graphics.",
+  "groups": [
+    {
+      "id": "renders",
+      "title": "Renders",
+      "description": "CAD and 3D renders.",
+      "folder": "src/portfolio/graphics-renders/renders",
+      "items": []
+    }
+  ]
+}

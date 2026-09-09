@@ -1,0 +1,222 @@
+[
+  {
+    "id": "home",
+    "title": "Home",
+    "type": "markdown",
+    "file": "content/home.md"
+  },
+  {
+    "id": "projects",
+    "title": "All My Projects",
+    "type": "markdown",
+    "file": "content/projects.md",
+    "tags": ["projects"],
+    "children": [
+      { "id": "bike-desk", "title": "Bike Desk", "type": "markdown", "file": "content/Misc Projects/bike-desk.md", "tags": ["projects.mechanical", "projects.electrical"] },
+      { "id": "science-fair", "title": "2022-2023 Arizona Science Fair", "type": "markdown", "file": "content/Misc Projects/science-fair.md", "tags": ["projects.misc"] },
+      { "id": "pavo-20-pro-analog", "title": "Pavo 20 Pro Analog", "type": "markdown", "file": "content/Misc Projects/pavo-20-pro-analog.md", "tags": ["projects.electrical", "projects.mechanical"] }
+    ]
+  },
+  {
+    "id": "rocketry",
+    "title": "Rocketry",
+    "type": "group",
+    "children": [
+      {
+        "id": "brophyrocketry",
+        "title": "Brophy Rocketry",
+        "type": "external",
+        "url": "https://sites.google.com/brophybroncos.org/brophyrocketryclub/",
+        "tags": [
+          "rocketry"
+        ]
+      },
+      {
+        "id": "toostg",
+        "title": "TooSTG",
+        "type": "external",
+        "url": "https://sites.google.com/brophybroncos.org/toostg",
+        "tags": [
+          "projects.misc",
+          "rocketry"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "robotics",
+    "title": "Robotics",
+    "type": "group",
+    "children": [
+      {
+        "id": "BroncSwerve",
+        "title": "Exploration into Swerve Math",
+        "type": "markdown",
+        "file": "content/Robotics/bronco-swerve-library.md",
+        "tags": [
+          "projects.software",
+          "robotics"
+        ]
+      },
+      {
+        "id": "ftc",
+        "title": "Inverse Kinematics & FTC",
+        "type": "markdown",
+        "file": "content/Robotics/invkine.md",
+        "tags": [
+          "projects.software",
+          "robotics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mini-projects",
+    "title": "Mini Projects",
+    "type": "group",
+    "children": [
+      {
+        "id": "ebike-headlight",
+        "title": "E-Bike Headlight Upgrade",
+        "type": "markdown",
+        "file": "content/Mini Projects/ebike-headlight-upgrade.md",
+        "tags": [
+          "projects.electrical",
+          "projects.misc"
+        ]
+      },
+      {
+        "id": "clap-light-switch",
+        "title": "Clap Light Switch",
+        "type": "markdown",
+        "file": "content/Mini Projects/clap-light-switch.md",
+        "tags": [
+          "projects.electrical",
+          "projects.misc"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "other-websites",
+    "title": "Other Websites",
+    "type": "group",
+    "children": [
+      {
+        "id": "tempmeter",
+        "title": "TempMeter",
+        "type": "external",
+        "url": "https://mars-rider.github.io/TempMeter/index.html",
+        "tags": [
+          "projects.software"
+        ]
+      },
+      {
+        "id": "counter",
+        "title": "Counter",
+        "type": "external",
+        "url": "https://mars-rider.github.io/Counter/index.html",
+        "tags": [
+          "projects.software"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "art",
+    "title": "My Art",
+    "type": "markdown",
+    "file": "content/art.md",
+    "tags": [
+      "art"
+    ],
+    "children": [
+      {
+        "id": "photography",
+        "title": "Photography",
+        "type": "portfolio",
+        "file": "data/photography-portfolio.json",
+        "tags": [
+          "art"
+        ]
+      },
+      {
+        "id": "videography",
+        "title": "Videography",
+        "type": "portfolio",
+        "file": "data/videography-portfolio.json",
+        "tags": [
+          "art"
+        ]
+      },
+      {
+        "id": "graphics-renders",
+        "title": "Graphics and Renders",
+        "type": "portfolio",
+        "file": "data/graphics-renders-portfolio.json",
+        "tags": [
+          "art"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "outdoors",
+    "title": "The Outdoors",
+    "type": "markdown",
+    "children": [
+      {
+        "id": "mtb",
+        "title": "Brophy MTB",
+        "type": "portfolio",
+        "file": "data/photography-portfolio.json#brophy-mtb",
+        "tags": [
+          "outdoors.mtb"
+        ]
+      },
+      {
+        "id": "boyscouts",
+        "title": "Boy Scouts",
+        "type": "markdown",
+        "file": "content/Outdoors/boyscouts.md",
+        "tags": [
+          "outdoors.boyscouts"
+        ]
+      },
+      {
+        "id": "random-trips",
+        "title": "Random Trips",
+        "type": "portfolio",
+        "file": "data/photography-portfolio.json#mt-baldy",
+        "tags": [
+          "outdoors.random-trips"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tutorials",
+    "title": "Tutorials/Guides",
+    "type": "markdown",
+    "children": [
+      {
+        "id": "dweet-io",
+        "title": "Dweet.io",
+        "type": "markdown",
+        "file": "content/Guides/dweet-io.md",
+        "tags": [
+          "tutorials"
+        ]
+      },
+      {
+        "id": "water-jet-guide",
+        "title": "Water Jet Guide",
+        "type": "external",
+        "url": "https://sites.google.com/brophybroncos.org/waterjetguide/water-jet-guide",
+        "tags": [
+          "tutorials"
+        ]
+      }
+    ]
+  }
+]

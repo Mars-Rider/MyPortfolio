@@ -1,0 +1,21 @@
+{
+  "intro": "Video clips and edits. Add a Google Drive share link as \"file\" and it plays right in the gallery.",
+  "groups": [
+    {
+      "id": "Backpacking in the Mt Blady Wilderness",
+      "title": "Mt Baldy",
+      "description": "Videos from my backpacking trip in the Mt Baldy Wilderness with my friends",
+      "items": [
+  {
+    "file": "https://drive.google.com/file/d/13Umb4ehKEn2BFZinqC-2UXdLa1aIpU7j/view?usp=sharing&export=download","type": "video"
+  },
+  {
+    "file": "https://drive.google.com/file/d/1MLbCVkMPtTH0l0ZwExBq-4XOu9EgKlUK/view?usp=sharing&export=download","type": "video"
+  },
+  {
+    "file": "https://drive.google.com/file/d/1mF58AexarM57pFCRqyF_KibR3NS3_u_9/view?usp=sharing&export=download","type": "video"
+  }
+]
+    }
+  ]
+}
