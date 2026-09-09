@@ -12,9 +12,11 @@
     "file": "content/projects.md",
     "tags": ["projects"],
     "children": [
-      { "id": "bike-desk", "title": "Bike Desk", "type": "markdown", "file": "content/Misc Projects/bike-desk.md", "tags": ["projects.mechanical", "projects.electrical"] },
+      { "id": "svdpdesk", "title": "Bike Desk", "type": "markdown", "file": "content/Misc Projects/svdpdesk.md", "tags": ["projects.mechanical", "projects.electrical"] },
       { "id": "science-fair", "title": "2022-2023 Arizona Science Fair", "type": "markdown", "file": "content/Misc Projects/science-fair.md", "tags": ["projects.misc"] },
-      { "id": "pavo-20-pro-analog", "title": "Pavo 20 Pro Analog", "type": "markdown", "file": "content/Misc Projects/pavo-20-pro-analog.md", "tags": ["projects.electrical", "projects.mechanical"] }
+      { "id": "atlas", "title": "Atlas", "type": "markdown", "file": "content/Misc Projects/atlas.md", "tags": ["projects.mechanical","projects.electrical","projects.software"] },
+      { "id": "pavo-20-pro-analog", "title": "Pavo 20 Pro Analog", "type": "markdown", "file": "content/Misc Projects/pavo-20-pro-analog.md", "tags": ["projects.electrical", "projects.mechanical"] },
+      { "id": "theedarkages", "title": "Thee Dark Ages", "type": "markdown", "file": "content/Misc Projects/theedarkages.md", "tags": ["projects.software"] }
     ]
   },
   {
@@ -40,7 +42,9 @@
           "projects.misc",
           "rocketry"
         ]
-      }
+      },
+      { "id": "bcptracker", "title": "BCP Tracker", "type": "markdown", "file": "content/Rocketry/bcptracker.md", "tags": ["projects.electrical","projects.software"] },
+      { "id": "pringletvc", "title": "Pringle TVC", "type": "markdown", "file": "content/Rocketry/pringletvc.md", "tags": ["projects.electrical","projects.software"] }
     ]
   },
   {
