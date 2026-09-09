@@ -4,15 +4,15 @@
     {
       "id": "posters",
       "title": "Posters",
-      "description": "CAD and 3D renders.",
+      "description": "All my poster designs",
       "items": [
-        "https://lh3.googleusercontent.com/d/1MbjgjXUljERTJq4JBRzm989J9bF40hAj",
-        "https://lh3.googleusercontent.com/d/17cSy_1xXXNz3O8vMAb0OFVEOfSjvcWHb",
-        "https://lh3.googleusercontent.com/d/1t9j557cG55rLIlV8tDCUuZ0YY-N2SvEZ",
-        "https://lh3.googleusercontent.com/d/1aolIW77ktvsFe_SM-YZT8kB57LasMD8r",
-        "https://lh3.googleusercontent.com/d/1rpe4PKNyGNQzIT6mkXOW1_-imkKpFQ_E",
-        "https://lh3.googleusercontent.com/d/1fbij4Tpq5HHW4duFzgg0pFb9ZppvJVgW",
-        "https://lh3.googleusercontent.com/d/1DPVNXVL6OwryrHkf3f1m1asxF4hqHF1q"
+        { "file": "https://lh3.googleusercontent.com/d/1MbjgjXUljERTJq4JBRzm989J9bF40hAj" },
+        { "file": "https://lh3.googleusercontent.com/d/17cSy_1xXXNz3O8vMAb0OFVEOfSjvcWHb" },
+        { "file": "https://lh3.googleusercontent.com/d/1t9j557cG55rLIlV8tDCUuZ0YY-N2SvEZ" },
+        { "file": "https://lh3.googleusercontent.com/d/1aolIW77ktvsFe_SM-YZT8kB57LasMD8r" },
+        { "file": "https://lh3.googleusercontent.com/d/1rpe4PKNyGNQzIT6mkXOW1_-imkKpFQ_E" },
+        { "file": "https://lh3.googleusercontent.com/d/1fbij4Tpq5HHW4duFzgg0pFb9ZppvJVgW" },
+        { "file": "https://lh3.googleusercontent.com/d/1DPVNXVL6OwryrHkf3f1m1asxF4hqHF1q" }
       ]
     }
   ]
