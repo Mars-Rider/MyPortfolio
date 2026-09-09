@@ -1,8 +1,10 @@
-# Bike Desk
+# SVdP Charging Desk
 
 [button: Bike Maintenance Guide — Book Order (Slides)](https://docs.google.com/presentation/d/1gKWiWyxWSgN99HcQdM1knnjP64UKGpxeJHGqrXbO2e8/present)
 
-![Bike Desk](https://lh3.googleusercontent.com/sitesv/AG8ngQVmpevsS0Lb_pUi_kVmGwkQcUEgzhvwNbrrEajDrgpHt89z17ZIV3vDIGGegXoc8WV3InwwIlT2jjVtnFUArxjXeZ0jk1pHSNP4lM5ZKlOVzugI0wwuFGUUJz2RzLZqi_d9jrfGVAjEL3Iu6e1ex2roaUaCY6EPQ_FDvb3_5M0K3KHVslMP4PpT7jTUmkxBIQdS7kGGp5O2OiYHQHX-XTd1KFpgCMdaHQudrBbH47I=w1280)
+![Bike Desk](https://lh3.googleusercontent.com/sitesv/AG8ngQWLDmd0ZhKjI1Vbm7tnH9yUrPhwiajfjQfJC2OBCFglpj2-xkEwQHyr7-SFmsg7hssBvLuO9HhgRsvYHpk2QjRqquKID_gHhiXU5oDpPqtIzWGSq1g4fPGkPTOqu7G-eOCqJFCMCsBfdNiDKtuyVccoskwczwHl1yfZ7ARWP8n-uEnxfg3AwoeyQk93jplxi4kv0GljndAOKn9Z7GmlUPzQxKgWX09o3X8SrRQBSyA)
+
+This project was also written about in an article on St. Vincent de Paul's website. [button: Check it out here](https://www.stvincentdepaul.net/news/cycling-sustainability)
 
 **Table of Contents:** Concept · Notes · Versions (V1, V2) · Bill of Materials · Links · Electronics · Mechanical Design
 

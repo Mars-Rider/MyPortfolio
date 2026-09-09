@@ -11,7 +11,7 @@
 <p class="hero-tagline">Mechanical & electrical builds, robotics, rocketry, and photography — a running log of what I'm making, flying, riding, and shooting.</p>
 </div>
 
-![Bike Desk banner](https://lh3.googleusercontent.com/sitesv/AG8ngQWKcPRm-VEBOUE-Hm--mrO-wkEEUlO8QElL0cO-nyyeMbp7V2HdvAuOcTlwxzGUi431MfnhTeicy1QoL5EitBvvPaXgAspMh5N68wE7Eqo0yosi8MlA_CqS6B_ZzDMNqg4dMRmj8dZSt7nq03RFNtM9K9KlOjY8q0bEo4l21RqO8_3O2_zuGoEVmPe6Pyjuvsl2bnkRJ5gvrAJrECFWoYIfggNIgh0uj0O9pZa4WKA=w1280)
+![Bike Desk banner](https://lh3.googleusercontent.com/sitesv/AG8ngQWLDmd0ZhKjI1Vbm7tnH9yUrPhwiajfjQfJC2OBCFglpj2-xkEwQHyr7-SFmsg7hssBvLuO9HhgRsvYHpk2QjRqquKID_gHhiXU5oDpPqtIzWGSq1g4fPGkPTOqu7G-eOCqJFCMCsBfdNiDKtuyVccoskwczwHl1yfZ7ARWP8n-uEnxfg3AwoeyQk93jplxi4kv0GljndAOKn9Z7GmlUPzQxKgWX09o3X8SrRQBSyA)
 
 ## St. Vincent De Paul's Desk
 
