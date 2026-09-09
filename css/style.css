@@ -984,8 +984,8 @@ a:hover {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 34px;
-  height: 34px;
+  width: 24px;
+  height: 24px;
   background: var(--bg-panel);
   border: 1px solid var(--line);
   border-radius: 50%;
