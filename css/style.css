@@ -536,9 +536,10 @@ a:hover {
 }
 
 .hero-socials img {
-  width: 17px;
-  height: 17px;
+  width: 25px;
+  height: 25px;
   opacity: 0.85;
+  border: none !important;
   margin-bottom: 10px !important;
 }
 
