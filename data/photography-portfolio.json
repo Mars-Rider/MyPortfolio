@@ -7,92 +7,199 @@
       "description": "Photos from my backpacking trip in the Mt Baldy Wilderness with my friends",
       "folder": "src/portfolio/Baldy",
       "items": [
-  { "file": "https://lh3.googleusercontent.com/d/116CWOpQ4bCXguu4hBaGJrgs1rNx6-o8P" },
-  { "file": "https://lh3.googleusercontent.com/d/11ML32IozVIgnWjZBrtJ_HclRFd6_f2ru" },
-  { "file": "https://lh3.googleusercontent.com/d/12hFmtyB3iC3fWSDElJq0S0sipxV4pjMb" },
-  { "file": "https://lh3.googleusercontent.com/d/13C0N4fnGs4AhisMK8Q846rxhbvvzi2GE" },
-  { "file": "https://lh3.googleusercontent.com/d/13rqXWJHPo_FUMitBie8XgAJdMYpx19Qx" },
-  { "file": "https://lh3.googleusercontent.com/d/14AH2U40Up2SIWiFTyAmjqopl5BZA_Kaj" },
-  { "file": "https://lh3.googleusercontent.com/d/16-vq7W6almRTBWBGDpLTVr2hwSveyykL" },
-  { "file": "https://lh3.googleusercontent.com/d/18mzJksQCb646EC0X-bH3sDl57hRiwqAy" },
-  { "file": "https://lh3.googleusercontent.com/d/1Al21Mg1s9zegKsXvFN_zpwkmSDGSTvnR" },
-  { "file": "https://lh3.googleusercontent.com/d/1B0PS4hX4Abhjz19FbIAlVEeALChLtU_h" },
-  { "file": "https://lh3.googleusercontent.com/d/1Bm2TahYimz8TjjXkoAXQ8CEid-uy8Q3N" },
-  { "file": "https://lh3.googleusercontent.com/d/1C7ijSw18rhCDky2OnVRsOOYRtZoPrREo" },
-  { "file": "https://lh3.googleusercontent.com/d/1FqyPsEDt8B2laO5-IvOAVnLk47VIJeGv" },
-  { "file": "https://lh3.googleusercontent.com/d/1HBDQm-oWQ7J1ZfQmxgNKYNrsRSA9AXiZ" },
-  { "file": "https://lh3.googleusercontent.com/d/1ITcXQyHANE6ERu37DNQQxesCY9uS-ezi" },
-  { "file": "https://lh3.googleusercontent.com/d/1JFaEe0UXtGJyw25py4OSMUYkJpb_4-NF" },
-  { "file": "https://lh3.googleusercontent.com/d/1JO9Nzt3RY3jBFk0BpiKqzWQ9b8lXwi5M" },
-  { "file": "https://lh3.googleusercontent.com/d/1JOq3UHDnXsFSsjCNZrMr1f50bOEIfXCA" },
-  { "file": "https://lh3.googleusercontent.com/d/1LQmfcyvZJHtYV3cBYHNaqXsOK0Y4CZQy" },
-  { "file": "https://lh3.googleusercontent.com/d/1LzIbQyzJ77XCyt-eO9jSjG1l5Y8VLs0G" },
-  { "file": "https://lh3.googleusercontent.com/d/1OQPGTEzd0tNagkuotG9f02rrRH1thAJ3" },
-  { "file": "https://lh3.googleusercontent.com/d/1PBxiYqu4dos3o3kbrz2olTPFamlQzi_3" },
-  { "file": "https://lh3.googleusercontent.com/d/1RfDIg78eLeRhX4j4NLUNzHwowo0Y3GuA" },
-  { "file": "https://lh3.googleusercontent.com/d/1T5XlDLyrO3Qfmv3GPHmo5m3TA67t_iDV" },
-  { "file": "https://lh3.googleusercontent.com/d/1Thqbi_X93GldzsDamAx8XSh7J0jYQCoo" },
-  { "file": "https://lh3.googleusercontent.com/d/1Ti490sW5qZSv5rZWDU6DSKZXz-Oz0nZG" },
-  { "file": "https://lh3.googleusercontent.com/d/1W1SLqQmXxxoOoqbdIpvJI0iP-bqQg5mY" },
-  { "file": "https://lh3.googleusercontent.com/d/1XRp0QA9bse0wY7KbnndTV8ns4FxrGN9l" },
-  { "file": "https://lh3.googleusercontent.com/d/1crxO_dfFdi8UNXnchgK8xBshhaPi2SSS" },
-  { "file": "https://lh3.googleusercontent.com/d/1e352r9CIzI0KjbZbPzzsKRj-QduY_1n9" },
-  { "file": "https://lh3.googleusercontent.com/d/1gf1H1Apam8YT9iInWLNB_48nKQNv-2n2" },
-  { "file": "https://lh3.googleusercontent.com/d/1hQviaBvxamxbQmte4UW0iDHgjNy8Ac7g" },
-  { "file": "https://lh3.googleusercontent.com/d/1htMWaL2dNucUyIVjNncHMZQLNSSH7pS-" },
-  { "file": "https://lh3.googleusercontent.com/d/1i0C56AeWwiECmzQo9W24P-J8GXDRElbL" },
-  { "file": "https://lh3.googleusercontent.com/d/1iIxwy6cgN1QpW9M0VN1nvb-XyobcM9Qa" },
-  { "file": "https://lh3.googleusercontent.com/d/1iVuID9WRU2clqNiY9h5iQrG5MfjrRWWq" },
-  { "file": "https://lh3.googleusercontent.com/d/1iiDOnXKKitSJNcWSS24chS_BjHsiJCIq" },
-  { "file": "https://lh3.googleusercontent.com/d/1jCT1fdmIawReaT61AqA72nioEmoSZ8eR" },
-  { "file": "https://lh3.googleusercontent.com/d/1jprH52osXnFqjWsipLWHQh76G0We1xw2" },
-  { "file": "https://lh3.googleusercontent.com/d/1ks-2rQWAjv9M8tN8OxE0EhbvQIrLcqDs" },
-  { "file": "https://lh3.googleusercontent.com/d/1m8pAcoAz2B0-RcA-iqcIYuYFUlBjRCwZ" },
-  { "file": "https://lh3.googleusercontent.com/d/1mVl2OIIIzdUyqTHhhS2X0_XCbEvdFdiT" },
-  { "file": "https://lh3.googleusercontent.com/d/1o4D1qPfZ647zepvNdQu6ADhJirdCRae_" },
-  { "file": "https://lh3.googleusercontent.com/d/1pbwGEnfbeho0GfbZ8C15Nuir6B-Mlqu1" },
-  { "file": "https://lh3.googleusercontent.com/d/1q82zXUZHPZA7_AORB3q-Uyw-u3fNsMb9" },
-  { "file": "https://lh3.googleusercontent.com/d/1qGqSI2VbXE7tiq3-ORJ03n3bElWDulAf" },
-  { "file": "https://lh3.googleusercontent.com/d/1qe6Jy90jR0PexI7rtbp2SR7NC4LJ6TsY" },
-  { "file": "https://lh3.googleusercontent.com/d/1qjVHPjp-qENspzzQJorpikBFtboYH-Lw" },
-  { "file": "https://lh3.googleusercontent.com/d/1rwuKNsAt-ttVyIUxQB5l4umqPMoXVjhq" },
-  { "file": "https://lh3.googleusercontent.com/d/1tD03LMmyVdDzMkbukTVjJdo3llYLkB28" },
-  { "file": "https://lh3.googleusercontent.com/d/1tKte9CHRHjwXATa05aL7CAc8RvZCxH7a" },
-  { "file": "https://lh3.googleusercontent.com/d/1yadH6vNL-tilCxDR5MmFY1cDXS-TMCh4" },
-  { "file": "https://lh3.googleusercontent.com/d/1ypPbW1msMpeNda5m0P0NzO4cYeJP0vfj" }
-]
-    },{
+        {
+          "file": "https://lh3.googleusercontent.com/d/116CWOpQ4bCXguu4hBaGJrgs1rNx6-o8P"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/11ML32IozVIgnWjZBrtJ_HclRFd6_f2ru"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/12hFmtyB3iC3fWSDElJq0S0sipxV4pjMb"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/13C0N4fnGs4AhisMK8Q846rxhbvvzi2GE"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/13rqXWJHPo_FUMitBie8XgAJdMYpx19Qx"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/14AH2U40Up2SIWiFTyAmjqopl5BZA_Kaj"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/16-vq7W6almRTBWBGDpLTVr2hwSveyykL"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/18mzJksQCb646EC0X-bH3sDl57hRiwqAy"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Al21Mg1s9zegKsXvFN_zpwkmSDGSTvnR"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1B0PS4hX4Abhjz19FbIAlVEeALChLtU_h"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Bm2TahYimz8TjjXkoAXQ8CEid-uy8Q3N"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1C7ijSw18rhCDky2OnVRsOOYRtZoPrREo"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1FqyPsEDt8B2laO5-IvOAVnLk47VIJeGv"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1HBDQm-oWQ7J1ZfQmxgNKYNrsRSA9AXiZ"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1ITcXQyHANE6ERu37DNQQxesCY9uS-ezi"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1JFaEe0UXtGJyw25py4OSMUYkJpb_4-NF"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1JO9Nzt3RY3jBFk0BpiKqzWQ9b8lXwi5M"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1JOq3UHDnXsFSsjCNZrMr1f50bOEIfXCA"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1LQmfcyvZJHtYV3cBYHNaqXsOK0Y4CZQy"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1LzIbQyzJ77XCyt-eO9jSjG1l5Y8VLs0G"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1OQPGTEzd0tNagkuotG9f02rrRH1thAJ3"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1PBxiYqu4dos3o3kbrz2olTPFamlQzi_3"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1RfDIg78eLeRhX4j4NLUNzHwowo0Y3GuA"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1T5XlDLyrO3Qfmv3GPHmo5m3TA67t_iDV"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Thqbi_X93GldzsDamAx8XSh7J0jYQCoo"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Ti490sW5qZSv5rZWDU6DSKZXz-Oz0nZG"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1W1SLqQmXxxoOoqbdIpvJI0iP-bqQg5mY"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1XRp0QA9bse0wY7KbnndTV8ns4FxrGN9l"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1crxO_dfFdi8UNXnchgK8xBshhaPi2SSS"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1e352r9CIzI0KjbZbPzzsKRj-QduY_1n9"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1gf1H1Apam8YT9iInWLNB_48nKQNv-2n2"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1hQviaBvxamxbQmte4UW0iDHgjNy8Ac7g"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1htMWaL2dNucUyIVjNncHMZQLNSSH7pS-"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1i0C56AeWwiECmzQo9W24P-J8GXDRElbL"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1iIxwy6cgN1QpW9M0VN1nvb-XyobcM9Qa"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1iVuID9WRU2clqNiY9h5iQrG5MfjrRWWq"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1iiDOnXKKitSJNcWSS24chS_BjHsiJCIq"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1jCT1fdmIawReaT61AqA72nioEmoSZ8eR"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1jprH52osXnFqjWsipLWHQh76G0We1xw2"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1ks-2rQWAjv9M8tN8OxE0EhbvQIrLcqDs"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1m8pAcoAz2B0-RcA-iqcIYuYFUlBjRCwZ"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1mVl2OIIIzdUyqTHhhS2X0_XCbEvdFdiT"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1o4D1qPfZ647zepvNdQu6ADhJirdCRae_"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1pbwGEnfbeho0GfbZ8C15Nuir6B-Mlqu1"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1q82zXUZHPZA7_AORB3q-Uyw-u3fNsMb9"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1qGqSI2VbXE7tiq3-ORJ03n3bElWDulAf"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1qe6Jy90jR0PexI7rtbp2SR7NC4LJ6TsY"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1qjVHPjp-qENspzzQJorpikBFtboYH-Lw"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1rwuKNsAt-ttVyIUxQB5l4umqPMoXVjhq"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1tD03LMmyVdDzMkbukTVjJdo3llYLkB28"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1tKte9CHRHjwXATa05aL7CAc8RvZCxH7a"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1yadH6vNL-tilCxDR5MmFY1cDXS-TMCh4"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1ypPbW1msMpeNda5m0P0NzO4cYeJP0vfj"
+        }
+      ]
+    },
+    {
       "id": "2024 Trip to Italy",
       "title": "Valle Di Aosta",
       "description": "Photos from my trip to Valle Di Aosta, Italy with my family and relatives",
       "items": [
         {
-    "file": "https://lh3.googleusercontent.com/d/1kw7957zo-5-gOa9FHqYisF7fNSNaFYjh"
-  },
-  {
-    "file": "https://lh3.googleusercontent.com/d/18sHvqa_PhSvl77jLacjHPkudMGh8wP5i"
-  },
-  {
-    "file": "https://lh3.googleusercontent.com/d/1CEVi1BkBs6mAQySaGnGHKLfMIIJ_fXlk"
-  },
-  {
-    "file": "https://lh3.googleusercontent.com/d/1R8_7aqUL4XpyhtLlWo2NcUJSyE04D5Iw"
-  },
-  {
-    "file": "https://lh3.googleusercontent.com/d/1U5rnKSJ-cGCcaqB5HUlQm4h-v3udTmcC"
-  },
-  {
-    "file": "https://lh3.googleusercontent.com/d/1hs-3sbJU1jVPotzjKrG_0JD7hHo_QFev"
-  },
-  {
-    "file": "https://lh3.googleusercontent.com/d/1o9_EbcOOlYMF51Nlg_YLgWgdt6TtzXb9"
-  },
-  {
-    "file": "https://lh3.googleusercontent.com/d/1oX59sgIl29tLrgVOFvsGHIpe4VnYeO-1"
-  },
-  {
-    "file": "https://lh3.googleusercontent.com/d/1zmxfetwJqFodMHNf_fAKoT7zNf2_Ty99"
-  } 
+          "file": "https://lh3.googleusercontent.com/d/1kw7957zo-5-gOa9FHqYisF7fNSNaFYjh"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/18sHvqa_PhSvl77jLacjHPkudMGh8wP5i"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1CEVi1BkBs6mAQySaGnGHKLfMIIJ_fXlk"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1R8_7aqUL4XpyhtLlWo2NcUJSyE04D5Iw"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1U5rnKSJ-cGCcaqB5HUlQm4h-v3udTmcC"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1hs-3sbJU1jVPotzjKrG_0JD7hHo_QFev"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1o9_EbcOOlYMF51Nlg_YLgWgdt6TtzXb9"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1oX59sgIl29tLrgVOFvsGHIpe4VnYeO-1"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1zmxfetwJqFodMHNf_fAKoT7zNf2_Ty99"
+        }
       ]
     },
     {
@@ -100,27 +207,69 @@
       "title": "New Mexico",
       "description": "Photos from my trip to New Mexico.",
       "items": [
-        "https://lh3.googleusercontent.com/d/1UiG3LHhh3vMUaoG5RXCOojRVthe8i6rW",
-        "https://lh3.googleusercontent.com/d/1tQxkN9Pl1dRZhMAfrkLSX-RXeaflH52k",
-        "https://lh3.googleusercontent.com/d/12xjQbChk8qzupK2BTXei5UcMeHkRrHTZ",
-        "https://lh3.googleusercontent.com/d/1c1Lp0g4rKCNYQ5Z2f_26xO9_8eyNNlTm",
-        "https://lh3.googleusercontent.com/d/15tFYM-1lztm27wrQ_ORVzEA3o0Ho_EoV",
-        "https://lh3.googleusercontent.com/d/1e5UzGqpJVShJrAXOAGfDBFvJDZXxJrEh",
-        "https://lh3.googleusercontent.com/d/1uFJKORfLnIDY7df3_jk4CiPqjSX7V1-u",
-        "https://lh3.googleusercontent.com/d/1D2vc7H6Z7TOJmMX3jMaTGP7O3Jx4bvLA",
-        "https://lh3.googleusercontent.com/d/16K0GS0ZvonUfbWceRYA_RxvxS33I01h6",
-        "https://lh3.googleusercontent.com/d/1UvtuDOO7MEkkOsWGsMHYyaZkTOeL3eK3",
-        "https://lh3.googleusercontent.com/d/149qiUjWFu2G1Umru3_d4yqbBom0075GY",
-        "https://lh3.googleusercontent.com/d/1WM2elMF5OE-S4yeheghtj1o38R870oh-",
-        "https://lh3.googleusercontent.com/d/1xH3g3MXhkBQst27msBK8I0YltxauTXQi",
-        "https://lh3.googleusercontent.com/d/1xczpLHpkxz75IZMEz379pGxWadY4otwe",
-        "https://lh3.googleusercontent.com/d/1T8K8bAs84x5wmJXnIptqEAUowy-d5h9n",
-        "https://lh3.googleusercontent.com/d/1FZMhjQhdwjc9ha6OEanfKvoKWckkzbv1",
-        "https://lh3.googleusercontent.com/d/1Ypr46_2kj4W6w7BTeiYIo6n4ToadBLmD",
-        "https://lh3.googleusercontent.com/d/1hw4NMONUvo6thD0v8JwivgIQl1QFgNkA",
-        "https://lh3.googleusercontent.com/d/10MsmtKrm5pVkA_aMsezeKOFiG6eirVgd",
-        "https://lh3.googleusercontent.com/d/1qpVxFA3GRKKsGxJ7ikNXdMZvKr9_ziqI",
-        "https://lh3.googleusercontent.com/d/1xLukH91GNbe-F1ki-TwsXyOvn8qyABUD"
+        {
+          "file": "https://lh3.googleusercontent.com/d/1UiG3LHhh3vMUaoG5RXCOojRVthe8i6rW"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1tQxkN9Pl1dRZhMAfrkLSX-RXeaflH52k"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/12xjQbChk8qzupK2BTXei5UcMeHkRrHTZ"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1c1Lp0g4rKCNYQ5Z2f_26xO9_8eyNNlTm"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/15tFYM-1lztm27wrQ_ORVzEA3o0Ho_EoV"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1e5UzGqpJVShJrAXOAGfDBFvJDZXxJrEh"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1uFJKORfLnIDY7df3_jk4CiPqjSX7V1-u"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1D2vc7H6Z7TOJmMX3jMaTGP7O3Jx4bvLA"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/16K0GS0ZvonUfbWceRYA_RxvxS33I01h6"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1UvtuDOO7MEkkOsWGsMHYyaZkTOeL3eK3"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/149qiUjWFu2G1Umru3_d4yqbBom0075GY"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1WM2elMF5OE-S4yeheghtj1o38R870oh-"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1xH3g3MXhkBQst27msBK8I0YltxauTXQi"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1xczpLHpkxz75IZMEz379pGxWadY4otwe"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1T8K8bAs84x5wmJXnIptqEAUowy-d5h9n"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1FZMhjQhdwjc9ha6OEanfKvoKWckkzbv1"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Ypr46_2kj4W6w7BTeiYIo6n4ToadBLmD"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1hw4NMONUvo6thD0v8JwivgIQl1QFgNkA"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/10MsmtKrm5pVkA_aMsezeKOFiG6eirVgd"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1qpVxFA3GRKKsGxJ7ikNXdMZvKr9_ziqI"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1xLukH91GNbe-F1ki-TwsXyOvn8qyABUD"
+        }
       ]
     },
     {
@@ -128,14 +277,30 @@
       "title": "Artemis II",
       "description": "Photos from the Artemis II mission that I edited.",
       "items": [
-        "https://lh3.googleusercontent.com/d/1m-iorVJEbD63CfUj2D0HFHGO32hy3uQb",
-        "https://lh3.googleusercontent.com/d/1CC1jhX6-MT3z3W7dpfaRPfbKTRQAAhfX",
-        "https://lh3.googleusercontent.com/d/1LjznMRwJFWfzhETEa0TxXSDo_DMkbgq1",
-        "https://lh3.googleusercontent.com/d/1wOGC31a5J432l0KvnbjAg8eSBwA-ZCPq",
-        "https://lh3.googleusercontent.com/d/1MGuNrRXFEw9JyLi2Qu3tBEv73a2jRPkV",
-        "https://lh3.googleusercontent.com/d/1hcXugiVLFOHPdMSXzXNmZkDMwyvtDcxL",
-        "https://lh3.googleusercontent.com/d/1ZeiYK-SyyFGvhWD1Lme9hyRXW8tpapxV",
-        "https://lh3.googleusercontent.com/d/1k6W-m4KsT6oExW_VTRuVRStrhaZRr4cE"
+        {
+          "file": "https://lh3.googleusercontent.com/d/1m-iorVJEbD63CfUj2D0HFHGO32hy3uQb"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1CC1jhX6-MT3z3W7dpfaRPfbKTRQAAhfX"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1LjznMRwJFWfzhETEa0TxXSDo_DMkbgq1"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1wOGC31a5J432l0KvnbjAg8eSBwA-ZCPq"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1MGuNrRXFEw9JyLi2Qu3tBEv73a2jRPkV"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1hcXugiVLFOHPdMSXzXNmZkDMwyvtDcxL"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1ZeiYK-SyyFGvhWD1Lme9hyRXW8tpapxV"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1k6W-m4KsT6oExW_VTRuVRStrhaZRr4cE"
+        }
       ]
     },
     {
@@ -143,23 +308,57 @@
       "title": "Ensenda Cruise",
       "description": "Photos from the Ensenda Da Cruise.",
       "items": [
-        "https://lh3.googleusercontent.com/d/1-tbxvnkz1jeWxtEBDiAXZWMhWVsvl2rk",
-        "https://lh3.googleusercontent.com/d/1NJfjUhovoFXgHr0lCyFmgFYs-1y-v2DI",
-        "https://lh3.googleusercontent.com/d/1iIqgxYZ8ajwem7pB6GkePpy2ZTg-AkyP",
-        "https://lh3.googleusercontent.com/d/14HjB6X-AT6j5UNnR4IoyDGKEBa6QT2mB",
-        "https://lh3.googleusercontent.com/d/1QlVKE-gsER-6qJfhYZFbn6IWHxlweoZE",
-        "https://lh3.googleusercontent.com/d/16p29mElWX3nuvkDG0DFJIYQQuMVDBd_9",
-        "https://lh3.googleusercontent.com/d/1IHodZVVkipu1quS4DtR_uIkBnMGeQCFX",
-        "https://lh3.googleusercontent.com/d/1UW9ISSjN60Qn4avtmZ5dVRuX880L0jf8",
-        "https://lh3.googleusercontent.com/d/1bkZ1-rR_CEIcgRHr2ORYqfgkBDrX9oPw",
-        "https://lh3.googleusercontent.com/d/1oTcfPGeXICF7VISZsxg7hTU_PQthU0y7",
-        "https://lh3.googleusercontent.com/d/1CH3LZ2VZ9ILpesj4pk5ICnGYwzW_dfAk",
-        "https://lh3.googleusercontent.com/d/1YLzqd-BDFJAxMCrQ0U0uzXZ2BdssYlET",
-        "https://lh3.googleusercontent.com/d/1G1CgeIlACp6IEt8f4-OSmYn0tO-lFlTm",
-        "https://lh3.googleusercontent.com/d/1XUlEtu4_dcg92LG-DEeyGoahr6Ti0jng",
-        "https://lh3.googleusercontent.com/d/1FvKd00uh4c5DosM-9zc8tSY2kTmQtKuf",
-        "https://lh3.googleusercontent.com/d/1e9MfyfHoIIaoA4A2tvk5OxZewwPLOkQW",
-        "https://lh3.googleusercontent.com/d/1uhas1Rm7lwYVFlYIYLq8DvFMzqX5O3jZ"
+        {
+          "file": "https://lh3.googleusercontent.com/d/1-tbxvnkz1jeWxtEBDiAXZWMhWVsvl2rk"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1NJfjUhovoFXgHr0lCyFmgFYs-1y-v2DI"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1iIqgxYZ8ajwem7pB6GkePpy2ZTg-AkyP"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/14HjB6X-AT6j5UNnR4IoyDGKEBa6QT2mB"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1QlVKE-gsER-6qJfhYZFbn6IWHxlweoZE"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/16p29mElWX3nuvkDG0DFJIYQQuMVDBd_9"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1IHodZVVkipu1quS4DtR_uIkBnMGeQCFX"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1UW9ISSjN60Qn4avtmZ5dVRuX880L0jf8"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1bkZ1-rR_CEIcgRHr2ORYqfgkBDrX9oPw"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1oTcfPGeXICF7VISZsxg7hTU_PQthU0y7"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1CH3LZ2VZ9ILpesj4pk5ICnGYwzW_dfAk"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1YLzqd-BDFJAxMCrQ0U0uzXZ2BdssYlET"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1G1CgeIlACp6IEt8f4-OSmYn0tO-lFlTm"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1XUlEtu4_dcg92LG-DEeyGoahr6Ti0jng"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1FvKd00uh4c5DosM-9zc8tSY2kTmQtKuf"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1e9MfyfHoIIaoA4A2tvk5OxZewwPLOkQW"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1uhas1Rm7lwYVFlYIYLq8DvFMzqX5O3jZ"
+        }
       ]
     },
     {
@@ -167,62 +366,174 @@
       "title": "Highline July 4th",
       "description": "Photos from the Highline July 4th event.",
       "items": [
-        "https://lh3.googleusercontent.com/d/1GWYfb6dFAoZS2AV8RiCmJKSKj1NUruMR",
-        "https://lh3.googleusercontent.com/d/1Zuf20n9M3PchqPbtrQ91WL64yQ_u9xYC",
-        "https://lh3.googleusercontent.com/d/130l0hpKaUlurwAJrFaXl87mdAHLllqak",
-        "https://lh3.googleusercontent.com/d/1XOGhR76EVbWsxfBOKxYugytoUZOzC16C",
-        "https://lh3.googleusercontent.com/d/1FeLS9Rt9cBAH-lQ8Kgaj72MUPW-RMhUE",
-        "https://lh3.googleusercontent.com/d/1Lt94SLuMCWUs325pzL2IaMku-9VE_GUY",
-        "https://lh3.googleusercontent.com/d/18LYbX_w3hTKJ6l8eDa-w9jBycsQLSGcy",
-        "https://lh3.googleusercontent.com/d/13_3AXOkd6r11XvptoLhlK2Vp7A7ivIEo",
-        "https://lh3.googleusercontent.com/d/1tLSPgQuSYGcYRYsPRQZGzIs1o5__pO21",
-        "https://lh3.googleusercontent.com/d/1xNaqwuP3MjV38xXqLQtkENH8vGRj5LSL",
-        "https://lh3.googleusercontent.com/d/1XnCr9BoMci6KC5coEPT522DggI2ZskXH",
-        "https://lh3.googleusercontent.com/d/13m-cvYfVIPEEUGBnVA21TfCy_yosESgj",
-        "https://lh3.googleusercontent.com/d/17f2e3WMxr11_oLHvRMzxnG2RVZv_Qsct",
-        "https://lh3.googleusercontent.com/d/1Rua-kZvaH-uY46JkiqGgBzzyngsEfTR5",
-        "https://lh3.googleusercontent.com/d/1x9iQCnfJe65HkFEUL3LzjN6xLeJRig5N",
-        "https://lh3.googleusercontent.com/d/1nDV0ECYvwSSFtItPafhJE1L4ropIag9g",
-        "https://lh3.googleusercontent.com/d/1s2STHZ9U4vllnqozW_XbULDCnCK1WKeF",
-        "https://lh3.googleusercontent.com/d/1-2VlTaLq9BOM2TmS10kq1i93s4QuLKQS",
-        "https://lh3.googleusercontent.com/d/1tA-aEs1VKCGfGZ5FBjMES4BsbpQWoPJR",
-        "https://lh3.googleusercontent.com/d/154WTB500JaLrEjRAeirXz424lvcgNxsv",
-        "https://lh3.googleusercontent.com/d/1f_5x3a_l2v0sS47ZzP4qgdvRSK1GJKZ_",
-        "https://lh3.googleusercontent.com/d/1iogSeV1_bbjjWYe8pLsf55Ib2cC2XjVa",
-        "https://lh3.googleusercontent.com/d/1Qy7QMW0gj50LRJ-YidtafVcSLF_U89WO",
-        "https://lh3.googleusercontent.com/d/1qPTuhF5caG2Cyx2SON1oJRQLuHtSb6Ex",
-        "https://lh3.googleusercontent.com/d/1gUx8CMwx9ACFedmQ0OO1JAtxTLJxYbQt",
-        "https://lh3.googleusercontent.com/d/1vVLLjojjlw9gOYhPYinOS7s1wrMaR6O2",
-        "https://lh3.googleusercontent.com/d/1XYHxn425csRa-vVyAnnAFXMzJy1zHZQ8",
-        "https://lh3.googleusercontent.com/d/1SUN3epltxiNNRaadvGAF1CazkrZsU1mN",
-        "https://lh3.googleusercontent.com/d/1OfvGQrD-ltlAOSVN79hFZ169dvRNvcyf",
-        "https://lh3.googleusercontent.com/d/1YHjUl42kqdCt34MD6ZYGfrDsNCZTcaq8",
-        "https://lh3.googleusercontent.com/d/1JIRgOtZlDyTdrihr6iLW-6DkgwN_q8u3",
-        "https://lh3.googleusercontent.com/d/1XcSa8_4KdscGAtEULd6-WDvKvCiaEsEJ",
-        "https://lh3.googleusercontent.com/d/1sTi1PehDQelTAkHhE2pLhjmGBNM6S08B",
-        "https://lh3.googleusercontent.com/d/1foPEONV4CB7Jn9T6vWmeXf-aQH8NyId6",
-        "https://lh3.googleusercontent.com/d/1CXmG2hkXOhEcd4BWkO7CB9NJ46rfJjnL",
-        "https://lh3.googleusercontent.com/d/1WVXSWPDRaWVh8f1Dow4ipR9EuCeut93Y",
-        "https://lh3.googleusercontent.com/d/1uvde6CeUMkSzHb0Yx1SVTPM317t6vgX0",
-        "https://lh3.googleusercontent.com/d/12QmnLUak86-qw0GE2BYfztP4vozB-pui",
-        "https://lh3.googleusercontent.com/d/10zyufmlGLm81Uu2eACX4QL23kJ0qYV8o",
-        "https://lh3.googleusercontent.com/d/1TMfeDa-DPK8ayykhz4tZSkn0xq6bukGP",
-        "https://lh3.googleusercontent.com/d/1TDEhvmwZwR2NaPFYSxaF4L77JX8H2EvS",
-        "https://lh3.googleusercontent.com/d/1D8Qzlim2LBbg8i_jbOaUHoTo8VjORTj-",
-        "https://lh3.googleusercontent.com/d/1dn_e00oiPAIaELuU1VE0vGqaUVDnhDnG",
-        "https://lh3.googleusercontent.com/d/103YGOiWb2zeTpZizvayBLEU_4FD5b-BA",
-        "https://lh3.googleusercontent.com/d/1fw6MweSDk6RmIU88crY5u5zvTL-INmTG",
-        "https://lh3.googleusercontent.com/d/10tlz6ZI2s_7NDT-8GB9aRcYNhKiH-dFm",
-        "https://lh3.googleusercontent.com/d/1x0c5mvHgOeWAnl6GVLPEfypVRzcVQ8Ez",
-        "https://lh3.googleusercontent.com/d/1aOJuaaOCTucTHcACNnQyN0OZ3C3iTSA8",
-        "https://lh3.googleusercontent.com/d/11zKiKfQkwtlr3IyFXrSMNoB6TwrrSd0V",
-        "https://lh3.googleusercontent.com/d/1hFfvLR5XG-JmbNAadFsNctuwqvEWvuZw",
-        "https://lh3.googleusercontent.com/d/19FcRbi3owSOtS4i-sdkj0lBLgzDOS3kM",
-        "https://lh3.googleusercontent.com/d/1aU6GW-jeskuRnVsbI_gpn9HJZ4ZXy18k",
-        "https://lh3.googleusercontent.com/d/1KedH472r0lzT6jwDcHtXDj95RhxlFAzE",
-        "https://lh3.googleusercontent.com/d/1SBpCoE8dO8sxdkMr5Xa1pe_IEeIUblL0",
-        "https://lh3.googleusercontent.com/d/1AeYUUcw1BEfTbE93m0rPvDnIAa-j-2Bd",
-        "https://lh3.googleusercontent.com/d/15rvnu3tyfF9skFjZ4b7ZFxOJqS8HuTyp"
+        {
+          "file": "https://lh3.googleusercontent.com/d/1GWYfb6dFAoZS2AV8RiCmJKSKj1NUruMR"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Zuf20n9M3PchqPbtrQ91WL64yQ_u9xYC"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/130l0hpKaUlurwAJrFaXl87mdAHLllqak"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1XOGhR76EVbWsxfBOKxYugytoUZOzC16C"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1FeLS9Rt9cBAH-lQ8Kgaj72MUPW-RMhUE"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Lt94SLuMCWUs325pzL2IaMku-9VE_GUY"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/18LYbX_w3hTKJ6l8eDa-w9jBycsQLSGcy"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/13_3AXOkd6r11XvptoLhlK2Vp7A7ivIEo"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1tLSPgQuSYGcYRYsPRQZGzIs1o5__pO21"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1xNaqwuP3MjV38xXqLQtkENH8vGRj5LSL"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1XnCr9BoMci6KC5coEPT522DggI2ZskXH"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/13m-cvYfVIPEEUGBnVA21TfCy_yosESgj"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/17f2e3WMxr11_oLHvRMzxnG2RVZv_Qsct"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Rua-kZvaH-uY46JkiqGgBzzyngsEfTR5"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1x9iQCnfJe65HkFEUL3LzjN6xLeJRig5N"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1nDV0ECYvwSSFtItPafhJE1L4ropIag9g"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1s2STHZ9U4vllnqozW_XbULDCnCK1WKeF"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1-2VlTaLq9BOM2TmS10kq1i93s4QuLKQS"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1tA-aEs1VKCGfGZ5FBjMES4BsbpQWoPJR"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/154WTB500JaLrEjRAeirXz424lvcgNxsv"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1f_5x3a_l2v0sS47ZzP4qgdvRSK1GJKZ_"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1iogSeV1_bbjjWYe8pLsf55Ib2cC2XjVa"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Qy7QMW0gj50LRJ-YidtafVcSLF_U89WO"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1qPTuhF5caG2Cyx2SON1oJRQLuHtSb6Ex"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1gUx8CMwx9ACFedmQ0OO1JAtxTLJxYbQt"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1vVLLjojjlw9gOYhPYinOS7s1wrMaR6O2"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1XYHxn425csRa-vVyAnnAFXMzJy1zHZQ8"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1SUN3epltxiNNRaadvGAF1CazkrZsU1mN"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1OfvGQrD-ltlAOSVN79hFZ169dvRNvcyf"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1YHjUl42kqdCt34MD6ZYGfrDsNCZTcaq8"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1JIRgOtZlDyTdrihr6iLW-6DkgwN_q8u3"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1XcSa8_4KdscGAtEULd6-WDvKvCiaEsEJ"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1sTi1PehDQelTAkHhE2pLhjmGBNM6S08B"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1foPEONV4CB7Jn9T6vWmeXf-aQH8NyId6"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1CXmG2hkXOhEcd4BWkO7CB9NJ46rfJjnL"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1WVXSWPDRaWVh8f1Dow4ipR9EuCeut93Y"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1uvde6CeUMkSzHb0Yx1SVTPM317t6vgX0"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/12QmnLUak86-qw0GE2BYfztP4vozB-pui"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/10zyufmlGLm81Uu2eACX4QL23kJ0qYV8o"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1TMfeDa-DPK8ayykhz4tZSkn0xq6bukGP"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1TDEhvmwZwR2NaPFYSxaF4L77JX8H2EvS"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1D8Qzlim2LBbg8i_jbOaUHoTo8VjORTj-"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1dn_e00oiPAIaELuU1VE0vGqaUVDnhDnG"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/103YGOiWb2zeTpZizvayBLEU_4FD5b-BA"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1fw6MweSDk6RmIU88crY5u5zvTL-INmTG"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/10tlz6ZI2s_7NDT-8GB9aRcYNhKiH-dFm"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1x0c5mvHgOeWAnl6GVLPEfypVRzcVQ8Ez"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1aOJuaaOCTucTHcACNnQyN0OZ3C3iTSA8"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/11zKiKfQkwtlr3IyFXrSMNoB6TwrrSd0V"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1hFfvLR5XG-JmbNAadFsNctuwqvEWvuZw"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/19FcRbi3owSOtS4i-sdkj0lBLgzDOS3kM"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1aU6GW-jeskuRnVsbI_gpn9HJZ4ZXy18k"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1KedH472r0lzT6jwDcHtXDj95RhxlFAzE"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1SBpCoE8dO8sxdkMr5Xa1pe_IEeIUblL0"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1AeYUUcw1BEfTbE93m0rPvDnIAa-j-2Bd"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/15rvnu3tyfF9skFjZ4b7ZFxOJqS8HuTyp"
+        }
       ]
     },
     {
@@ -230,29 +541,75 @@
       "title": "Taylor 2025",
       "description": "Brophy photos from the Taylor 2025 ACA MTB Race.",
       "items": [
-        "https://lh3.googleusercontent.com/d/1ZsivPvwl6u3Fk86UUcfhOgP1dMzD3HEK",
-        "https://lh3.googleusercontent.com/d/1CVB2ZQy5invR4Zz8pUOJVQ2K4--cx01k",
-        "https://lh3.googleusercontent.com/d/14Fz_1PKluLiA1DvTWOlimR32rSTBQ3pX",
-        "https://lh3.googleusercontent.com/d/1n4w3c7Vg5AbFAqTU2_yXnEoZzpLvp7FN",
-        "https://lh3.googleusercontent.com/d/1HwtuF9Vlk38hXzsG9F3rZloCkiTrab6n",
-        "https://lh3.googleusercontent.com/d/1EiBLTmXDOIQEowI8EVYhX0pyznjFDExk",
-        "https://lh3.googleusercontent.com/d/1LXySF9lk6q3pHGYTI1hJPNaY3Hgk-LwY",
-        "https://lh3.googleusercontent.com/d/1wSsKRCtZ11b0zsvvjq-VVehY-9mwuP0j",
-        "https://lh3.googleusercontent.com/d/1Xn_iM-aBAGzcDNzaDgTGoPmPFjSIYS2c",
-        "https://lh3.googleusercontent.com/d/16tGVTZ7_4j1kM970iGbzN6exjnLP03N1",
-        "https://lh3.googleusercontent.com/d/10ozP4MT3SGV3jWLrZE9wVZApRO1UrdG7",
-        "https://lh3.googleusercontent.com/d/1kabO9PSMN0ATUel6gMYdcQHx4muPwUz4",
-        "https://lh3.googleusercontent.com/d/1m1S80Dyt0NPq60MTQqYDoxhO_biO3LdY",
-        "https://lh3.googleusercontent.com/d/1LZFyu-fROl0hVoQK-r0ZSECp7-L3-kOy",
-        "https://lh3.googleusercontent.com/d/1C1LHFK0qX_LLR6hQu8-o3Roo-7Ld9u8E",
-        "https://lh3.googleusercontent.com/d/1XX8u9KXDU-U--DcmJTx7Q2u6SnobPP0M",
-        "https://lh3.googleusercontent.com/d/1Ag51TqjSec1dfcQ_k6tdVE1BeLdGwQxs",
-        "https://lh3.googleusercontent.com/d/1b4b9kpbYA-2O9I1yQEt_9_y4bF8kMQbn",
-        "https://lh3.googleusercontent.com/d/1iM9x33W84FPrVkTkVOWaI7mqWEwbtLWq",
-        "https://lh3.googleusercontent.com/d/1Mt21TlbAe0xvcrsR-8HBAbahLPMNpNJn",
-        "https://lh3.googleusercontent.com/d/1RlB3M3Vid5NQV0EieUVETnfb8HtTkSm5",
-        "https://lh3.googleusercontent.com/d/1uIeOHJPaBZl5TBeLYKxC7YMmzcRJAwPx",
-        "https://lh3.googleusercontent.com/d/1PbyDlDj439ox8lMFfOI9eb0ncw1T97Fs"
+        {
+          "file": "https://lh3.googleusercontent.com/d/1ZsivPvwl6u3Fk86UUcfhOgP1dMzD3HEK"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1CVB2ZQy5invR4Zz8pUOJVQ2K4--cx01k"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/14Fz_1PKluLiA1DvTWOlimR32rSTBQ3pX"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1n4w3c7Vg5AbFAqTU2_yXnEoZzpLvp7FN"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1HwtuF9Vlk38hXzsG9F3rZloCkiTrab6n"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1EiBLTmXDOIQEowI8EVYhX0pyznjFDExk"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1LXySF9lk6q3pHGYTI1hJPNaY3Hgk-LwY"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1wSsKRCtZ11b0zsvvjq-VVehY-9mwuP0j"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Xn_iM-aBAGzcDNzaDgTGoPmPFjSIYS2c"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/16tGVTZ7_4j1kM970iGbzN6exjnLP03N1"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/10ozP4MT3SGV3jWLrZE9wVZApRO1UrdG7"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1kabO9PSMN0ATUel6gMYdcQHx4muPwUz4"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1m1S80Dyt0NPq60MTQqYDoxhO_biO3LdY"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1LZFyu-fROl0hVoQK-r0ZSECp7-L3-kOy"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1C1LHFK0qX_LLR6hQu8-o3Roo-7Ld9u8E"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1XX8u9KXDU-U--DcmJTx7Q2u6SnobPP0M"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Ag51TqjSec1dfcQ_k6tdVE1BeLdGwQxs"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1b4b9kpbYA-2O9I1yQEt_9_y4bF8kMQbn"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1iM9x33W84FPrVkTkVOWaI7mqWEwbtLWq"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Mt21TlbAe0xvcrsR-8HBAbahLPMNpNJn"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1RlB3M3Vid5NQV0EieUVETnfb8HtTkSm5"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1uIeOHJPaBZl5TBeLYKxC7YMmzcRJAwPx"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1PbyDlDj439ox8lMFfOI9eb0ncw1T97Fs"
+        }
       ]
     },
     {
@@ -260,24 +617,60 @@
       "title": "Taylor 2025",
       "description": "Photos from the Taylor 2025 event.",
       "items": [
-        "https://lh3.googleusercontent.com/d/16e5aq6Ju7YsadcZ8FXzIuebZdplDwQD_",
-        "https://lh3.googleusercontent.com/d/15F0d1TjSEm0kWZv1FdlBL0MZET70orbp",
-        "https://lh3.googleusercontent.com/d/1BWBmOeLg5xq2vjj3ikmXRvC-YT6Ab5SO",
-        "https://lh3.googleusercontent.com/d/1KSMwxjjFelM7iiw4dpQphDq5BTB2cN1x",
-        "https://lh3.googleusercontent.com/d/1YsvGiHXK6NtJ4az25kPN6G0jRRgQrrmo",
-        "https://lh3.googleusercontent.com/d/14wWTHGpP7vSUkBks6hVsIwJB4w3SKBR-",
-        "https://lh3.googleusercontent.com/d/18lt-hXQsv1iR6VV37yo5RgFWeCz7DcT4",
-        "https://lh3.googleusercontent.com/d/1JEsor-SjGKzlCRbiT-gcGJvFmuEGMO9M",
-        "https://lh3.googleusercontent.com/d/1Zvd2_3nhbzcis_aREQnyQpmQrUF84Y9b",
-        "https://lh3.googleusercontent.com/d/1BF965LwiaHUWILNT7vP7Hp30mdLuTP_u",
-        "https://lh3.googleusercontent.com/d/1ZuYjaLQpupURvx2UK8KpD_iafQxK5yyK",
-        "https://lh3.googleusercontent.com/d/1QZhGZN8I3o9NUpw6yYQ-jLvnsDDoLs8k",
-        "https://lh3.googleusercontent.com/d/1hctJXbPYL5X64feMVIzG_Dgfj0Uc-rm0",
-        "https://lh3.googleusercontent.com/d/160e7IL-wCvEM05hxCdcpaSPeYIKpeT-V",
-        "https://lh3.googleusercontent.com/d/1DulAElL71HkBc_ezzVaHqZEKzh7lPgAc",
-        "https://lh3.googleusercontent.com/d/1AOMbVOzsgTeaFlOAcnT8QHEeICLjO2RX",
-        "https://lh3.googleusercontent.com/d/1b5hWZqG1VNDAD2f82vOKIQfL1wOZKxLR",
-        "https://lh3.googleusercontent.com/d/1yy6kiFn1inWUADtc78sb2xM5sULBK2OE"
+        {
+          "file": "https://lh3.googleusercontent.com/d/16e5aq6Ju7YsadcZ8FXzIuebZdplDwQD_"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/15F0d1TjSEm0kWZv1FdlBL0MZET70orbp"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1BWBmOeLg5xq2vjj3ikmXRvC-YT6Ab5SO"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1KSMwxjjFelM7iiw4dpQphDq5BTB2cN1x"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1YsvGiHXK6NtJ4az25kPN6G0jRRgQrrmo"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/14wWTHGpP7vSUkBks6hVsIwJB4w3SKBR-"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/18lt-hXQsv1iR6VV37yo5RgFWeCz7DcT4"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1JEsor-SjGKzlCRbiT-gcGJvFmuEGMO9M"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Zvd2_3nhbzcis_aREQnyQpmQrUF84Y9b"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1BF965LwiaHUWILNT7vP7Hp30mdLuTP_u"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1ZuYjaLQpupURvx2UK8KpD_iafQxK5yyK"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1QZhGZN8I3o9NUpw6yYQ-jLvnsDDoLs8k"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1hctJXbPYL5X64feMVIzG_Dgfj0Uc-rm0"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/160e7IL-wCvEM05hxCdcpaSPeYIKpeT-V"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1DulAElL71HkBc_ezzVaHqZEKzh7lPgAc"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1AOMbVOzsgTeaFlOAcnT8QHEeICLjO2RX"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1b5hWZqG1VNDAD2f82vOKIQfL1wOZKxLR"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1yy6kiFn1inWUADtc78sb2xM5sULBK2OE"
+        }
       ]
     },
     {
@@ -285,39 +678,105 @@
       "title": "Noah R8",
       "description": "Photos with Noah R8.",
       "items": [
-        "https://lh3.googleusercontent.com/d/1b2QM21ZItdE-GjH2cTWDmyg0--8NLhKL",
-        "https://lh3.googleusercontent.com/d/1U1CwIhgV7rv_cXowaxbkciLWs4e7iH2n",
-        "https://lh3.googleusercontent.com/d/1zhBSA1SPxBI7oDChiZ6nVNKChsJJtl4n",
-        "https://lh3.googleusercontent.com/d/1DY8gK0Np-KR7ybxg8VUncpUm8BXXWryj",
-        "https://lh3.googleusercontent.com/d/1X-baYdTcozQFg6mPtO09p5E-MyE1N4_V",
-        "https://lh3.googleusercontent.com/d/1IvzhEJHvf1OOJDGRZeJQs3tGvdNo8SS8",
-        "https://lh3.googleusercontent.com/d/1k-OqIgJXrMOhppB7yYnD2Kc370Xt2KBF",
-        "https://lh3.googleusercontent.com/d/1ZTHhkdEPTjLU4IpRTVa0e4fLvjDDepvQ",
-        "https://lh3.googleusercontent.com/d/1UttXop8x58Z1K569Y3yrVk2Da6gscPKw",
-        "https://lh3.googleusercontent.com/d/1zta7LkRQKF7980kl4X2aJ2TUw7-c_WPl",
-        "https://lh3.googleusercontent.com/d/1Mw1wWe7j7pX6wPtHzT1OD6oomH--jrg3",
-        "https://lh3.googleusercontent.com/d/1oYnuzHmI20vWWHUollnkgI-KUGLKiR5A",
-        "https://lh3.googleusercontent.com/d/1tGvNc9HADeKfaYGQNJCdbvmVRZ4kVRAU",
-        "https://lh3.googleusercontent.com/d/1BY-eQYO7ls6xWcAITLYKJwYnVsvLpXE5",
-        "https://lh3.googleusercontent.com/d/1S0QaVj-jtMGAJwjlZ1-10zNzxT-MC3Um",
-        "https://lh3.googleusercontent.com/d/18klLlt-XCbm8FzLxO31NqFgRtTv_odIB",
-        "https://lh3.googleusercontent.com/d/1NP0bhGc8vxUFQdGuArsj6EBN1KQdlKzY",
-        "https://lh3.googleusercontent.com/d/1W9zMpELW6pr6B3TVTpeUTcx37vmcMPBB",
-        "https://lh3.googleusercontent.com/d/1XPZApZ7FL_Mr0v7JyiDS8JRQ1xU7MLtD",
-        "https://lh3.googleusercontent.com/d/1s_5Jic70UCFQWg28NV-CdYrmEXQwyb1c",
-        "https://lh3.googleusercontent.com/d/17og4lwrzgc579jjxFuLuStoWZ3-Q0x1H",
-        "https://lh3.googleusercontent.com/d/1HNO1Jo05oJpWStmbFskfIDmk1tZlNNqq",
-        "https://lh3.googleusercontent.com/d/1SOm4cWskrA3ohGpx6ss5k7SuS8lorcp_",
-        "https://lh3.googleusercontent.com/d/1koomSYZqPNgqTYIcvQvz1oLXy2RuCYe-",
-        "https://lh3.googleusercontent.com/d/1r9D-LiMTNy0x3Y2iXEru4oToMKONlgdh",
-        "https://lh3.googleusercontent.com/d/192pIPJ-KpuuJ9Pk-bzhVugiRQ78UYQ5O",
-        "https://lh3.googleusercontent.com/d/1PD6j4luqra28Bvb6nnu4CVklNWBZSW-D",
-        "https://lh3.googleusercontent.com/d/1sVZ5cCOf4Zn6E8fhc7WIW0Z_LdzspkXr",
-        "https://lh3.googleusercontent.com/d/1CawUZKgDNobWZuydUVS0iSL7JWaeHaGg",
-        "https://lh3.googleusercontent.com/d/11RZceql1ZrTAEgKglMXGdCLBMEbmUIbK",
-        "https://lh3.googleusercontent.com/d/1Oj1SlLHfosN8OF7sgJG1hhTWrmbuUzyz",
-        "https://lh3.googleusercontent.com/d/1BqJvKAvV68jeqWMfW61jevIjiXql71p7",
-        "https://lh3.googleusercontent.com/d/1MbjgjXUljERTJq4JBRzm989J9bF40hAj"
+        {
+          "file": "https://lh3.googleusercontent.com/d/1b2QM21ZItdE-GjH2cTWDmyg0--8NLhKL"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1U1CwIhgV7rv_cXowaxbkciLWs4e7iH2n"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1zhBSA1SPxBI7oDChiZ6nVNKChsJJtl4n"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1DY8gK0Np-KR7ybxg8VUncpUm8BXXWryj"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1X-baYdTcozQFg6mPtO09p5E-MyE1N4_V"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1IvzhEJHvf1OOJDGRZeJQs3tGvdNo8SS8"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1k-OqIgJXrMOhppB7yYnD2Kc370Xt2KBF"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1ZTHhkdEPTjLU4IpRTVa0e4fLvjDDepvQ"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1UttXop8x58Z1K569Y3yrVk2Da6gscPKw"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1zta7LkRQKF7980kl4X2aJ2TUw7-c_WPl"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Mw1wWe7j7pX6wPtHzT1OD6oomH--jrg3"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1oYnuzHmI20vWWHUollnkgI-KUGLKiR5A"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1tGvNc9HADeKfaYGQNJCdbvmVRZ4kVRAU"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1BY-eQYO7ls6xWcAITLYKJwYnVsvLpXE5"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1S0QaVj-jtMGAJwjlZ1-10zNzxT-MC3Um"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/18klLlt-XCbm8FzLxO31NqFgRtTv_odIB"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1NP0bhGc8vxUFQdGuArsj6EBN1KQdlKzY"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1W9zMpELW6pr6B3TVTpeUTcx37vmcMPBB"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1XPZApZ7FL_Mr0v7JyiDS8JRQ1xU7MLtD"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1s_5Jic70UCFQWg28NV-CdYrmEXQwyb1c"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/17og4lwrzgc579jjxFuLuStoWZ3-Q0x1H"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1HNO1Jo05oJpWStmbFskfIDmk1tZlNNqq"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1SOm4cWskrA3ohGpx6ss5k7SuS8lorcp_"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1koomSYZqPNgqTYIcvQvz1oLXy2RuCYe-"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1r9D-LiMTNy0x3Y2iXEru4oToMKONlgdh"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/192pIPJ-KpuuJ9Pk-bzhVugiRQ78UYQ5O"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1PD6j4luqra28Bvb6nnu4CVklNWBZSW-D"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1sVZ5cCOf4Zn6E8fhc7WIW0Z_LdzspkXr"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1CawUZKgDNobWZuydUVS0iSL7JWaeHaGg"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/11RZceql1ZrTAEgKglMXGdCLBMEbmUIbK"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1Oj1SlLHfosN8OF7sgJG1hhTWrmbuUzyz"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1BqJvKAvV68jeqWMfW61jevIjiXql71p7"
+        },
+        {
+          "file": "https://lh3.googleusercontent.com/d/1MbjgjXUljERTJq4JBRzm989J9bF40hAj"
+        }
       ]
     }
   ]
