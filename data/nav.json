@@ -168,16 +168,8 @@
     "id": "outdoors",
     "title": "The Outdoors",
     "type": "markdown",
+    "file": "content/outdoord.md",
     "children": [
-      {
-        "id": "mtb",
-        "title": "Brophy MTB",
-        "type": "portfolio",
-        "file": "data/photography-portfolio.json#brophy-mtb",
-        "tags": [
-          "outdoors.mtb"
-        ]
-      },
       {
         "id": "boyscouts",
         "title": "Boy Scouts",
@@ -185,15 +177,6 @@
         "file": "content/Outdoors/boyscouts.md",
         "tags": [
           "outdoors.boyscouts"
-        ]
-      },
-      {
-        "id": "random-trips",
-        "title": "Random Trips",
-        "type": "portfolio",
-        "file": "data/photography-portfolio.json#mt-baldy",
-        "tags": [
-          "outdoors.random-trips"
         ]
       }
     ]

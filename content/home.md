@@ -6,6 +6,7 @@
 <a href="https://www.instagram.com/marcofix.01/" target="_blank" rel="noopener" title="Instagram"><img src="https://ssl.gstatic.com/atari/images/sociallinks/instagram_white_44dp.png" alt="Instagram"></a>
 <a href="https://github.com/Mars-Rider" target="_blank" rel="noopener" title="GitHub"><img src="https://ssl.gstatic.com/atari/images/sociallinks/github_white_44dp.png" alt="GitHub"></a>
 <a href="https://www.flickr.com/photos/198914131@N02/" target="_blank" rel="noopener" title="Flickr"><img src="https://ssl.gstatic.com/atari/images/sociallinks/link_white_44dp.png" alt="Flickr"></a><a href="https://www.strava.com/athletes/137689175" target="_blank" rel="noopener" title="Strava"><img src="https://ssl.gstatic.com/atari/images/sociallinks/link_white_44dp.png" alt="Strava"></a>
+<a href="https://www.linkedin.com/in/marco-fissore-6845a3382/" target="_blank" rel="noopener" title="Strava"><img src="https://ssl.gstatic.com/atari/images/sociallinks/link_white_44dp.png" alt="Linked In"></a>
 </div>
 </div>
 <p class="hero-tagline">Mechanical & electrical builds, robotics, rocketry, and photography — a running log of what I'm making, flying, riding, and shooting.</p>
