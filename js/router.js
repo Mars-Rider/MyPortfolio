@@ -154,11 +154,26 @@
     var header = document.createElement('button');
     header.className = 'pf-group-header';
     header.type = 'button';
-    header.innerHTML = '<span>' + group.title +
-      '<span class="pf-count">' + (group.items ? group.items.length : 0) + ' item' + ((group.items && group.items.length === 1) ? '' : 's') + '</span></span>' +
-      '<span class="pf-caret">\u25B8</span>';
+    header.innerHTML =
+      "<span>" +
+      group.title +
+      '<span class="pf-count">' +
+      (group.items ? group.items.length : 0) +
+      " item" +
+      (group.items && group.items.length === 1 ? "" : "s") +
+      '</span></span> <div style="display: flex; gap: 10px; align-items: center;">' +
+      (group.folder
+        ? '<a class="pf-folder" aria-label="Open Photos Folder" href="' +
+          group.folder +
+          '"> <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" > <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg> </a>'
+        : "") +
+      '<span class="pf-caret">\u25B8</span></div>';
     header.addEventListener('click', function () { el.classList.toggle('open'); });
     el.appendChild(header);
+
+    if (group.folder) {
+      // Do something
+    }
 
     var body = document.createElement('div');
     body.className = 'pf-group-body';

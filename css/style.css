@@ -979,6 +979,25 @@ a:hover {
   color: var(--red-bright);
 }
 
+.pf-folder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--text-dim);
+  cursor: pointer;
+}
+
+.pf-folder:hover {
+  color: var(--text);
+  border-color: var(--teal);
+}
+
 /* lightbox opens at ~2/3 of the viewport, not full-screen */
 .lightbox {
   position: fixed;

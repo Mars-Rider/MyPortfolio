@@ -43,8 +43,8 @@
           "rocketry"
         ]
       },
-      { "id": "bcptracker", "title": "BCP Tracker", "type": "markdown", "file": "content/Rocketry/bcptracker.md", "tags": ["projects.electrical","projects.software"] },
-      { "id": "pringletvc", "title": "Pringle TVC", "type": "markdown", "file": "content/Rocketry/pringletvc.md", "tags": ["projects.electrical","projects.software"] }
+      { "id": "bcptracker", "title": "BCP Tracker", "type": "markdown", "file": "content/Rocketry/bcptracker.md", "tags": ["projects.electrical","projects.software","rocketry"] },
+      { "id": "pringletvc", "title": "Pringle TVC", "type": "markdown", "file": "content/Rocketry/pringletvc.md", "tags": ["projects.electrical","projects.software","rocketry"] }
     ]
   },
   {
@@ -71,7 +71,8 @@
           "projects.software",
           "robotics"
         ]
-      }
+      },
+      { "id": "frcrebuilt", "title": "FRC Rebuilt", "type": "markdown", "file": "content/Robotics/frcrebuilt.md", "tags": ["projects.software","robotics"] }
     ]
   },
   {

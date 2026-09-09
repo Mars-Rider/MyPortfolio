@@ -17,3 +17,7 @@ Example — swap this for a real post link from your account and it'll render in
 ```
 [embed](https://www.instagram.com/p/POST_ID/)
 ```
+
+## My Gear 
+
+This is all my gear

@@ -9,7 +9,7 @@
 <a href="https://www.linkedin.com/in/marco-fissore-6845a3382/" target="_blank" rel="noopener" title="Strava"><img src="https://ssl.gstatic.com/atari/images/sociallinks/link_white_44dp.png" alt="Linked In"></a>
 </div>
 </div>
-<p class="hero-tagline">Mechanical & electrical builds, robotics, rocketry, and photography — a running log of what I'm making, flying, riding, and shooting.</p>
+<p class="hero-tagline">A running website will all my projects, in rocketry, robotics, or photos/videos</p>
 </div>
 
 ![Bike Desk banner](https://lh3.googleusercontent.com/sitesv/AG8ngQWLDmd0ZhKjI1Vbm7tnH9yUrPhwiajfjQfJC2OBCFglpj2-xkEwQHyr7-SFmsg7hssBvLuO9HhgRsvYHpk2QjRqquKID_gHhiXU5oDpPqtIzWGSq1g4fPGkPTOqu7G-eOCqJFCMCsBfdNiDKtuyVccoskwczwHl1yfZ7ARWP8n-uEnxfg3AwoeyQk93jplxi4kv0GljndAOKn9Z7GmlUPzQxKgWX09o3X8SrRQBSyA)
