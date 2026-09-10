@@ -1000,6 +1000,7 @@ a:hover {
   border-radius: 50%;
   color: var(--text-dim);
   cursor: pointer;
+  margin-left: auto;
 }
 
 .pf-folder:hover {
