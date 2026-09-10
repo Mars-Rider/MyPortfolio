@@ -57,15 +57,35 @@
       return "\u0000CODE" + (codeStash.length - 1) + "\u0000";
     });
 
-    // images ![alt](src "title"){240px}
+
+    // images ![alt](src "title"){vertical height, vertical offset}<type>
+    //Types: banner, big card (square), small card (square,inline on the right), 
     text = text.replace(
-      /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)(?:\{([^}]+)\})?/g,
-      function (_, alt, src, title, size) {
+      /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)(?:\{([^}]+)\})?(?:\<([^>]+)\>)?/g,
+      function (_, alt, src, title, size, type) {
         var t = title ? ' title="' + escapeHtml(title) + '"' : "";
         var style = "";
         if (size) {
-          var h = /^\d+$/.test(size.trim()) ? size.trim() + "px" : size.trim();
-          style = ' style="height:' + h + '; object-fit:cover; width:100%;"';
+          var sizeParts = size.split(",");
+          var height = sizeParts[0].trim();
+          var offset = sizeParts[1] ? sizeParts[1].trim() : "50%";
+          var h = /^\d+$/.test(height) ? height + "px" : height;
+          style = ' style="height:' + h + '; object-fit:cover;';
+          style += ' object-position:center ' + offset + ';';
+        
+          switch (type) {
+            case "big-card":
+              style += ' aspect-ratio:1/1;';
+              break;
+            case "small-card":
+              style += ' aspect-ratio:1/1; float:right; margin-left:10px;';
+              break;
+            default:
+              style += ' width:100%;';
+              break;
+          }
+
+          style += '"';
         }
         return (
           '<img src="' +

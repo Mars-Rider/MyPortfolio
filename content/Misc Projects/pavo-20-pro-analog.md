@@ -2,6 +2,8 @@
 
 A DJI O3/O4 Analog Alternative
 
+![Pavo](src/assets/AssemblyLower.png){300px,-50px}
+
 ## But Why?
 
 If you are looking for a pre-built sub-drone to get cinematic shots while being sub-250g and small enough to fit through gaps — all while being analog and costing less than the DJI system — you are in for a challenge. This is similar to the problem I had: I couldn't fly my 5-inch drone everywhere, and my tiny whoop couldn't record video, so I decided to try my luck at making such a drone. My goals were to make it as small and light as an O3 unit, have a pretty good range, be able to adjust settings to get a really cinematic look, and have the power to do some freestyle maneuvers. This page maps my journey through this project.
@@ -10,9 +12,9 @@ If you are looking for a pre-built sub-drone to get cinematic shots while being 
 
 The type of drone I'm looking for is the size of a cinewhoop — sub 250g so I don't need to register it — with enough power to do some freestyle tricks, like a power loop. Essentially a bigger and stronger tiny whoop, aka a micro quad.
 
-![Drone options](https://lh3.googleusercontent.com/sitesv/AG8ngQWk_sc75KjC3j0G82rC2cKiGXqyNjf61UXxXmXm1BorJQg_NekGJP9ALqBcjTPIctoTqlZRDxQEB3vj0ciAqPrJCWZyqR1XvgApgQMye_Gep3Vya_ahhRvWKl2BeVeCqGT5CXGdXIa6ZiqXoNHa1hLLwXqymwTZIfraWNw5Rc8b9W3W6vowU1e6Nj5E=w1280)
-
 ### Flylens85
+
+![Flylens85](https://rcdrone.top/cdn/shop/articles/85-ana-04_2160x_bb031cab-4111-4ec6-942c-8ea8bdd287af.webp?v=1699105738&width=1920){150px}<big-card>
 
 - Can't easily attach/detach the new stack
 - Not very powerful, especially outside
@@ -20,10 +22,14 @@ The type of drone I'm looking for is the size of a cinewhoop — sub 250g so I d
 
 ### Pavo 20 Pro
 
+![Pavo 20 Pro](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXdjO68nrQf0K_uh8hD96FNJGDd-2tt27nb79KoqcbPzUgt9Dg3Muml4x3&s=10){150px}<big-card>
+
 - Extremely powerful — 3S
 - Canopy system offers more than enough room
 
 ### Mobula 8
+
+![Mobula 8](https://www.rotorama.com/assets/images/db21eaf3446afc309f971ec2b97f6ce7/30574-806_807.jpg){150px}<big-card>
 
 - Powerful for the size and small — 2S
 - Only needs a DVR added (cheap)
@@ -112,7 +118,7 @@ Like always, I used Onshape. I started by importing pictures of the O3 canopy's 
 ---
 ## Controller Layout
 
-![Controller layout](https://lh3.googleusercontent.com/sitesv/AG8ngQWmlVVe7vl6az50kOj4zhGQQilkPFb7tf1b9nTXMdJs2HLeHbIkOedhFjjiZT6k_VT2kyuQKUqk2aown9tlD1VrxdkgQngFMjZvatBu2jcxGZwdacqf1V4ZN7O6_f49AQOeJl0F92Yn12CsFpNSs9gHdBTkPzwz8FO-UpeE2Owf7LUkIXMHPOOPeI8NEJ9ufOSO9OVU1cVltwhLf9_X2JR-ILLX0gYP0i44MKOWyF4=w1280)
+![Controller layout](src/assets/OSDOnOff.png)
 
 ### Logic Switches
 

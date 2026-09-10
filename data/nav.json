@@ -63,6 +63,16 @@
         ]
       },
       {
+        "id": "cannonlite",
+        "title": "CannonLite",
+        "type": "markdown",
+        "file": "content/Robotics/cannonlite.md",
+        "tags": [
+          "projects.software",
+          "robotics"
+        ]
+      },
+      {
         "id": "ftc",
         "title": "Inverse Kinematics & FTC",
         "type": "markdown",
