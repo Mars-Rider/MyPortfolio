@@ -91,7 +91,12 @@
 
         contentEl.innerHTML = "";
         contentEl.appendChild(article);
-        document.title = node.title + " \u2014 Marco Fissore '27";
+        document.title =
+          (node.title != "Home"
+            ? node.title + " \u2014 "
+            : "") + "Marco Fissore '27";
+
+        console.log(node.title);
 
         ensureInstagramEmbeds(article);
         OutlineContent.render(navIndex, article, node.id);
