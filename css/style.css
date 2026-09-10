@@ -661,6 +661,7 @@ a:hover {
   color: var(--text);
   border-bottom: 2px solid var(--red);
   padding-bottom: 14px;
+  scroll-margin-top: 75px;
 }
 
 .page h2 {
@@ -668,6 +669,7 @@ a:hover {
   font-size: 20px;
   margin: 40px 0 12px;
   color: var(--text);
+  scroll-margin-top: 75px;
 }
 
 .page h3 {
@@ -675,6 +677,7 @@ a:hover {
   font-size: 16px;
   margin: 28px 0 10px;
   color: var(--teal-bright);
+  scroll-margin-top: 75px;
 }
 
 .page h4 {
@@ -682,6 +685,7 @@ a:hover {
   font-size: 14px;
   margin: 20px 0 8px;
   color: var(--text-dim);
+  scroll-margin-top: 75px;
 }
 
 .page p {
@@ -717,6 +721,11 @@ a:hover {
   display: block;
   margin: 10px 0 20px;
   background: var(--bg-panel);
+  transition: transform 0.2s ease-in-out;
+}
+
+.page img:hover {
+  transform: scale(1.01);
 }
 
 .page blockquote {

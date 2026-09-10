@@ -57,36 +57,49 @@
       return "\u0000CODE" + (codeStash.length - 1) + "\u0000";
     });
 
-
     // images ![alt](src "title"){vertical height, vertical offset}<type>
-    //Types: banner, big card (square), small card (square,inline on the right), 
+    //Types: banner(default), big card (square), small card (square,inline on the right),background (overlay over the background at a certain place in the article) , page-background (overlay over the background of the whole page)
     text = text.replace(
       /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)(?:\{([^}]+)\})?(?:\<([^>]+)\>)?/g,
       function (_, alt, src, title, size, type) {
         var t = title ? ' title="' + escapeHtml(title) + '"' : "";
-        var style = "";
+        var style = 'style="';
         if (size) {
           var sizeParts = size.split(",");
           var height = sizeParts[0].trim();
           var offset = sizeParts[1] ? sizeParts[1].trim() : "50%";
           var h = /^\d+$/.test(height) ? height + "px" : height;
-          style = ' style="height:' + h + '; object-fit:cover;';
-          style += ' object-position:center ' + offset + ';';
-        
+          style += 'height:' + h + "; object-fit:cover;";
+          style += " object-position:center " + offset + ";";
+        }
+
+        if(type){
           switch (type) {
             case "big-card":
-              style += ' aspect-ratio:1/1;';
+              style += " aspect-ratio:1/1;";
               break;
             case "small-card":
-              style += ' aspect-ratio:1/1; float:right; margin-left:10px;';
+              style += " aspect-ratio:1/1; float:right; margin-left:10px;";
+              break;
+            case "background":
+              style +=
+                " position:absolute; left: 50%; transform: translateX(-50%); max-width:720px; height:100%; z-index:-1; opacity:0.35; background:none; border:none;";
+              break;
+            case "page-background":
+              style +=
+                " position:fixed; top:0; left:0; width:100%; height:100%; z-index:-1; opacity:0.35; background:none; border:none;";
               break;
             default:
-              style += ' width:100%;';
+              style += " width:100%;";
               break;
           }
-
-          style += '"';
+        } else if (size) {
+          style += " width:100%;";
         }
+
+        style += '"';
+
+
         return (
           '<img src="' +
           resolveImageSrc(src) +

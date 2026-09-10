@@ -118,7 +118,7 @@ Like always, I used Onshape. I started by importing pictures of the O3 canopy's 
 ---
 ## Controller Layout
 
-![Controller layout](src/assets/OSDOnOff.png)
+![Controller Layout](src/assets/OSDOnOff.png)
 
 ### Logic Switches
 

@@ -2,7 +2,7 @@
 
 A powerful wifi-enabled LED Controller designed to directly communicate with FRC and FTC Control hubs. It allows for complex driver signals and data with any FastLED compatable third party LED Strip
 
-![CannonLite PCB and Case](src/assets/Assembly1.png)
+![CannonLite PCB and Case](src/assets/Assembly1.png){650px}
 
 ## Goals
 
