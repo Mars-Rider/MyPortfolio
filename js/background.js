@@ -45,7 +45,7 @@
 
   function init(count) {
     var reduced = global.matchMedia && global.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    build(count || (reduced ? 6 : 10));
+    build(count || (reduced ? 4 : 6));
   }
 
   global.BgShapes = { init: init };

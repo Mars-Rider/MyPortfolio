@@ -57,7 +57,7 @@
     var base = 'https://lh3.googleusercontent.com/d/' + id;
     return {
       kind: hint === 'svg' || isSvgFile(url) ? 'svg' : 'image',
-      src: base, // full-res, only fetched when opened in the lightbox
+      src: base + '=s1600', // full-res, only fetched when opened in the lightbox
       thumbSrc: base + '=s200' // small, fast grid thumbnail
     };
   }

@@ -106,7 +106,6 @@ a:hover {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  will-change: transform;
 }
 
 @keyframes shape-drift {
@@ -130,8 +129,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 60;
-  background: rgba(20, 24, 27, 0.88);
-  backdrop-filter: blur(8px);
+  background: rgba(20, 24, 27, 1);
   border-bottom: 1px solid var(--line);
 }
 
@@ -345,9 +343,7 @@ a:hover {
   bottom: 0;
   width: 290px;
   max-width: 84vw;
-  background: transparent;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: color-mix(in srgb, var(--bg-panel) 50%, transparent);
   border-right: 1px solid var(--line-soft);
   z-index: 56;
   transform: translateX(-100%);
@@ -359,6 +355,8 @@ a:hover {
 
 .outline-panel.open {
   transform: translateX(0);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   pointer-events: auto;
 }
 
@@ -495,7 +493,7 @@ a:hover {
 
 /* ---------- landing hero (home page) ---------- */
 .hero {
-  padding: 64px 0 40px;
+  padding: 0px 0 40px;
   border-bottom: 1px solid var(--line);
   margin-bottom: 40px;
 }
