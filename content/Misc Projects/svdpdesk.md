@@ -4,7 +4,7 @@
 
 ![Bike Desk](https://lh3.googleusercontent.com/sitesv/AG8ngQWLDmd0ZhKjI1Vbm7tnH9yUrPhwiajfjQfJC2OBCFglpj2-xkEwQHyr7-SFmsg7hssBvLuO9HhgRsvYHpk2QjRqquKID_gHhiXU5oDpPqtIzWGSq1g4fPGkPTOqu7G-eOCqJFCMCsBfdNiDKtuyVccoskwczwHl1yfZ7ARWP8n-uEnxfg3AwoeyQk93jplxi4kv0GljndAOKn9Z7GmlUPzQxKgWX09o3X8SrRQBSyA){400px}
 
-This project was also written about in an article on St. Vincent de Paul's website. [button: Check it out here](https://www.stvincentdepaul.net/news/cycling-sustainability)
+This project was also written about in an article on St Vincent de Paul's website. [button: Check it out here](https://www.stvincentdepaul.net/news/cycling-sustainability)
 
 **Table of Contents:** Concept · Notes · Versions (V1, V2) · Bill of Materials · Links · Electronics · Mechanical Design
 

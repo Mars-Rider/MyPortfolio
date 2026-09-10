@@ -127,10 +127,9 @@
     card.style.cssText =
       "border:1px solid var(--line); border-radius:var(--radius); padding:16px 18px 18px; display:flex; flex-direction:column; gap:8px; background-color:var(--bg-panel);";
 
-    // in buildCard(), replace the backgroundImage block with:
-if (imageSrc) {
-  card.dataset.bg = imageSrc;
-}
+    if (imageSrc) {
+      card.dataset.bg = imageSrc;
+    }
 
     var h3 = document.createElement("h3");
     h3.textContent = node.title;
@@ -206,23 +205,19 @@ if (imageSrc) {
       });
 
       var cardObserver = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          if (!entry.isIntersecting) return;
-          var el = entry.target;
-          if (!el.dataset.bg) return;
-          el.style.backgroundImage =
-            'linear-gradient(color-mix(in srgb, var(--bg-panel) 82%, transparent), color-mix(in srgb, var(--bg-panel) 82%, transparent)), url("' +
-            el.dataset.bg +
-            '")';
-          el.style.backgroundSize = "cover";
-          el.style.backgroundPosition = "center";
-          el.style.backgroundRepeat = "no-repeat";
-          cardObserver.unobserve(el);
-        });
-      });
-      grid.querySelectorAll(".project-card").forEach(function (c) {
-        cardObserver.observe(c);
-      });
+  entries.forEach(function (entry) {
+    if (!entry.isIntersecting) return;
+    var el = entry.target;
+    if (!el.dataset.bg) return;
+    el.style.backgroundImage =
+      'linear-gradient(color-mix(in srgb, var(--bg-panel) 82%, transparent), color-mix(in srgb, var(--bg-panel) 82%, transparent)), url("' + el.dataset.bg + '")';
+    el.style.backgroundSize = 'cover';
+    el.style.backgroundPosition = 'center';
+    el.style.backgroundRepeat = 'no-repeat';
+    cardObserver.unobserve(el);
+  });
+});
+grid.querySelectorAll('.project-card').forEach(function (c) { cardObserver.observe(c); });
 
     return { grid: grid, ready: Promise.all(fetches) };
   }

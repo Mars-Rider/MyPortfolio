@@ -1,1 +1,0 @@
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="20066982309" data-style="standard" data-from-embed="false" data-token="E3F2xp3HjAscCoycRngIeo--yso-8gr8QnsQCe1-t7M"></div><script src="https://strava-embeds.com/embed.js"></script>
