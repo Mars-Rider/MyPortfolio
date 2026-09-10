@@ -42,7 +42,11 @@
       if (hint === 'video' || isVideoFile(url)) return { kind: 'video-file', src: url, thumbSrc: url };
       if (hint === 'svg' || isSvgFile(url)) return { kind: 'svg', src: url, thumbSrc: url };
       if (hint === "file") return { kind: "file", src: url, thumbSrc: url };
-      return { kind: "image", src: url + "=s1600", thumbSrc: url + "=s200" };
+      return {
+        kind: "image",
+        src: url + (url.startsWith("http") ? "=s1600" : ""),
+        thumbSrc: url + (url.startsWith("http") ? "=s200" : ""),
+      };
     }
 
     if (hint === 'video' || isVideoFile(url)) {

@@ -128,7 +128,16 @@
       "border:1px solid var(--line); border-radius:var(--radius); padding:16px 18px 18px; display:flex; flex-direction:column; gap:8px; background-color:var(--bg-panel);";
 
     if (imageSrc) {
-      card.dataset.bg = imageSrc;
+      // Dim the image with a theme-matched overlay so title/text stay readable,
+      // instead of a flat color — falls back to the flat color above if this
+      // gradient syntax isn't supported.
+      card.style.backgroundImage =
+        'linear-gradient(color-mix(in srgb, var(--bg-panel) 82%, transparent), color-mix(in srgb, var(--bg-panel) 82%, transparent)), url("' +
+        imageSrc +
+        '")';
+      card.style.backgroundSize = "cover";
+      card.style.backgroundPosition = "center";
+      card.style.backgroundRepeat = "no-repeat";
     }
 
     var h3 = document.createElement("h3");
@@ -203,21 +212,6 @@
           }
         });
       });
-
-      var cardObserver = new IntersectionObserver(function (entries) {
-  entries.forEach(function (entry) {
-    if (!entry.isIntersecting) return;
-    var el = entry.target;
-    if (!el.dataset.bg) return;
-    el.style.backgroundImage =
-      'linear-gradient(color-mix(in srgb, var(--bg-panel) 82%, transparent), color-mix(in srgb, var(--bg-panel) 82%, transparent)), url("' + el.dataset.bg + '")';
-    el.style.backgroundSize = 'cover';
-    el.style.backgroundPosition = 'center';
-    el.style.backgroundRepeat = 'no-repeat';
-    cardObserver.unobserve(el);
-  });
-});
-grid.querySelectorAll('.project-card').forEach(function (c) { cardObserver.observe(c); });
 
     return { grid: grid, ready: Promise.all(fetches) };
   }
