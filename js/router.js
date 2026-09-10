@@ -275,6 +275,7 @@
     } else {
       var thumb = document.createElement("img");
       thumb.src = resolved.thumbSrc;
+      console.log(resolved);
       thumb.alt = entry.caption || entry.groupTitle;
       thumb.loading = "lazy";
       cell.appendChild(thumb);

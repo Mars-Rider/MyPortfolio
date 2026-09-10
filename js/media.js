@@ -36,13 +36,13 @@
    */
   function resolve(rawUrl, hint) {
     var url = (rawUrl || '').trim();
-    var id = driveFileId(url);
+    var id = driveFileId(url); //Doesnt work
 
     if (!id) {
       if (hint === 'video' || isVideoFile(url)) return { kind: 'video-file', src: url, thumbSrc: url };
       if (hint === 'svg' || isSvgFile(url)) return { kind: 'svg', src: url, thumbSrc: url };
       if (hint === "file") return { kind: "file", src: url, thumbSrc: url };
-      return { kind: 'image', src: url, thumbSrc: url };
+      return { kind: "image", src: url + "=s1600", thumbSrc: url + "=s200" };
     }
 
     if (hint === 'video' || isVideoFile(url)) {
