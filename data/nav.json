@@ -216,5 +216,10 @@
         ]
       }
     ]
+  },{
+    "id": "aboutme",
+    "title": "About Me",
+    "type": "markdown",
+    "file": "content/aboutme.md"
   }
 ]

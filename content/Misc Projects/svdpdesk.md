@@ -2,7 +2,7 @@
 
 [button: Bike Maintenance Guide — Book Order (Slides)](https://docs.google.com/presentation/d/1gKWiWyxWSgN99HcQdM1knnjP64UKGpxeJHGqrXbO2e8/present)
 
-![Bike Desk](https://lh3.googleusercontent.com/sitesv/AG8ngQWLDmd0ZhKjI1Vbm7tnH9yUrPhwiajfjQfJC2OBCFglpj2-xkEwQHyr7-SFmsg7hssBvLuO9HhgRsvYHpk2QjRqquKID_gHhiXU5oDpPqtIzWGSq1g4fPGkPTOqu7G-eOCqJFCMCsBfdNiDKtuyVccoskwczwHl1yfZ7ARWP8n-uEnxfg3AwoeyQk93jplxi4kv0GljndAOKn9Z7GmlUPzQxKgWX09o3X8SrRQBSyA){400px}
+![Bike Desk](https://www.stvincentdepaul.net/sites/default/files/styles/full_width/public/2024-04/Hope%20Lens%20-%20May%2024.png?itok=fV00l1JQ){400px}
 
 This project was also written about in an article on St Vincent de Paul's website. [button: Check it out here](https://www.stvincentdepaul.net/news/cycling-sustainability)
 
@@ -86,4 +86,5 @@ Because of this, the two iPhone-compatible 80V DC-DC converters (for charging ph
 
 ## Mechanical Design
 
-I am CADing this in Onshape. You can find the models here: [OnShape Doc](https://cad.onshape.com/documents/562c4f46c1262753f81229e8).
+I designed this whole project in Onshape.
+[button: You can find the models here](https://cad.onshape.com/documents/562c4f46c1262753f81229e8)

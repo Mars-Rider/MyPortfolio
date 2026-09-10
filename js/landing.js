@@ -122,27 +122,31 @@
     keys.forEach(function (k) {
       var node = nodes[k];
       var p = pos[k];
-      var g = document.createElementNS(SVG_NS, 'g');
-      g.setAttribute('class', 'diagram-node');
-      g.setAttribute('transform', 'translate(' + p.x + ',' + p.y + ')');
-      g.setAttribute('tabindex', '0');
-      g.setAttribute('role', 'button');
+      var g = document.createElementNS(SVG_NS, "g");
+      g.setAttribute("class", "diagram-node");
+      g.setAttribute("transform", "translate(" + p.x + "," + p.y + ")");
+      g.setAttribute("tabindex", "0");
+      g.setAttribute("role", "button");
 
       var radius = 22 + Math.min(node.pages.length, 6) * 2.5;
-      var circle = document.createElementNS(SVG_NS, 'circle');
-      circle.setAttribute('r', radius);
-      circle.setAttribute('class', 'diagram-circle');
+      var circle = document.createElementNS(SVG_NS, "circle");
+      circle.setAttribute("r", radius);
+      circle.setAttribute("class", "diagram-circle");
       g.appendChild(circle);
 
-      var text = document.createElementNS(SVG_NS, 'text');
-      text.setAttribute('class', 'diagram-label');
-      text.setAttribute('text-anchor', 'middle');
-      text.setAttribute('dy', '0.32em');
+      var text = document.createElementNS(SVG_NS, "text");
+      text.setAttribute("class", "diagram-label");
+      text.setAttribute("text-anchor", "middle");
+      text.setAttribute("dy", "0.32em");
       text.textContent = node.label;
       g.appendChild(text);
 
-      g.addEventListener('click', function () { showDetail(node); });
-      g.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') showDetail(node); });
+      g.addEventListener("click", function () {
+        showDetail(node);
+      });
+      g.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") showDetail(node);
+      });
 
       svg.appendChild(g);
     });
