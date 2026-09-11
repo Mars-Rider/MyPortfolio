@@ -6,46 +6,58 @@
  */
 (function (global) {
   function hrefFor(node) {
-    if (node.type === 'external') return node.url;
-    return '#/' + node.id;
+    if (node.type === "external") return node.url;
+    return "#/" + node.id;
   }
-  function isExternal(node) { return node.type === 'external'; }
+  function isExternal(node) {
+    return node.type === "external";
+  }
 
   // ---- full-site mega menu (replaces the old per-item hover dropdowns) ----
   function buildMegaMenu(container, tree) {
-    container.innerHTML = '';
-    var list = document.createElement('div');
-    list.className = 'mega-menu-list';
-    tree.forEach(function (node) { appendMegaEntry(list, node, 0); });
+    container.innerHTML = "";
+    var list = document.createElement("div");
+    list.className = "mega-menu-list";
+    tree.forEach(function (node) {
+      appendMegaEntry(list, node, 0);
+    });
     container.appendChild(list);
   }
 
   function appendMegaEntry(container, node, depth) {
-    if (node.type === 'group') {
-      var label = document.createElement('div');
-      label.className = 'mega-group-title';
-      label.style.paddingLeft = (10 + depth * 16) + 'px';
+    if (node.type === "group") {
+      var label = document.createElement("div");
+      label.className = "mega-group-title";
+      label.style.paddingLeft = 10 + depth * 16 + "px";
       label.textContent = node.title;
       container.appendChild(label);
-      (node.children || []).forEach(function (c) { appendMegaEntry(container, c, depth + 1); });
+      (node.children || []).forEach(function (c) {
+        appendMegaEntry(container, c, depth + 1);
+      });
       return;
     }
 
-    var a = document.createElement('a');
-    a.className = 'mega-link' + (depth === 0 ? ' mega-link-top' : '');
-    a.style.paddingLeft = (10 + depth * 16) + 'px';
+    var a = document.createElement("a");
+    a.className = "mega-link" + (depth === 0 ? " mega-link-top" : "");
+    a.style.paddingLeft = 10 + depth * 16 + "px";
     a.dataset.id = node.id;
     a.href = hrefFor(node);
     a.textContent = node.title;
-    if (isExternal(node)) { a.target = '_blank'; a.rel = 'noopener'; a.classList.add('ext'); }
+    if (isExternal(node)) {
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.classList.add("ext");
+    }
     container.appendChild(a);
 
-    (node.children || []).forEach(function (c) { appendMegaEntry(container, c, depth + 1); });
+    (node.children || []).forEach(function (c) {
+      appendMegaEntry(container, c, depth + 1);
+    });
   }
 
   function setActive(id) {
-    document.querySelectorAll('[data-id]').forEach(function (el) {
-      el.classList.toggle('active', el.dataset.id === id);
+    document.querySelectorAll("[data-id]").forEach(function (el) {
+      el.classList.toggle("active", el.dataset.id === id);
     });
   }
 
@@ -67,8 +79,10 @@
   // Falls back to the top-level nav list if the page has no parent group.
   function siblingsOf(index, id) {
     var parent = index.parentOf[id];
-    var list = parent ? (parent.children || []) : index.tree;
-    return list.filter(function (n) { return n.type !== 'group'; });
+    var list = parent ? parent.children || [] : index.tree;
+    return list.filter(function (n) {
+      return n.type !== "group";
+    });
   }
 
   global.SiteNav = {
@@ -77,6 +91,6 @@
     flatten: flatten,
     siblingsOf: siblingsOf,
     hrefFor: hrefFor,
-    isExternal: isExternal
+    isExternal: isExternal,
   };
 })(window);
