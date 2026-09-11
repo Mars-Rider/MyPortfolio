@@ -100,6 +100,7 @@
 
       var a = document.createElement('a');
       a.className = 'mega-link mega-link-top';
+      a.style.marginTop = "0px"
       a.dataset.id = node.id;
       a.href = hrefFor(node);
       a.textContent = node.title;
