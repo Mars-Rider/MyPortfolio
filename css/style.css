@@ -194,6 +194,10 @@ a:hover {
   color: var(--text-dim);
   cursor: pointer;
   transition: all 0.15s ease-in-out;
+
+  position: fixed;
+    left: calc(100% - 50px);
+    top: calc(100% - 50px)
 }
 
 .icon-btn:hover {
@@ -219,10 +223,11 @@ a:hover {
   align-items: center;
   gap: 7px;
   font-family: var(--mono);
-  font-size: 13px;
-  background: var(--bg-panel);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
+  font-size: 14.5px;
+  font-weight: 500;
+  background: none;
+  border: none;
+  outline: none;
   color: var(--text);
   padding: 8px 12px;
   cursor: pointer;
@@ -267,6 +272,12 @@ a:hover {
   flex-direction: column;
 }
 
+.mega-menu-list div{
+  display: flex;
+  flex-direction: column;
+  width:150px;
+}
+
 .mega-group-title {
   font-family: var(--mono);
   text-transform: uppercase;
@@ -290,8 +301,9 @@ a:hover {
   font-size: 14.5px;
   color: var(--text);
   font-weight: 500;
+  width: auto;
   margin-top: 10px;
-  transition: all 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
 }
 
 .mega-link:hover {
@@ -1146,9 +1158,6 @@ a:hover {
 
 /* ---------- responsive ---------- */
 @media (max-width: 720px) {
-  .pf-grid {
-    columns: 2 160px;
-  }
 
   .lightbox-media {
     width: 92vw;
@@ -1162,7 +1171,7 @@ a:hover {
 
 @media (max-width: 480px) {
   .pf-grid {
-    columns: 1;
+    columns: 2;
   }
 
   .hero {

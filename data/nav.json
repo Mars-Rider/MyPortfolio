@@ -7,7 +7,7 @@
   },
   {
     "id": "projects",
-    "title": "All My Projects",
+    "title": "My Projects",
     "type": "markdown",
     "file": "content/projects.md",
     "tags": ["projects"],

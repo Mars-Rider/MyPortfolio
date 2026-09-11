@@ -1,5 +1,5 @@
 /*
- * Auto-builds the "All My Projects" page body from data/nav.json — one
+ * Auto-builds the "My Projects" page body from data/nav.json — one
  * card per page tagged "projects.*", each with a button to the page, its
  * title, the first real sentence of its markdown (the text between the
  * title and its first sub-heading), and its tags. Each card's background
