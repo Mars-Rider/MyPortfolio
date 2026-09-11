@@ -61,6 +61,15 @@
       // clicking anywhere outside the open mega menu closes it
       if (megaMenu.classList.contains('open')) MegaMenu.close();
     }
+
+    if (
+      !outlinePanel.contains(e.target) &&
+      e.target !== outlineToggle &&
+      !outlineToggle.contains(e.target)
+    ) {
+      // clicking anywhere outside the open mega menu closes it
+      if (outlinePanel.classList.contains("open")) OutlinePanel.close();
+    }
   });
 
   // ---- boot ----

@@ -39,11 +39,12 @@
     var id = driveFileId(url); //Doesnt work
 
     if (!id) {
-      if (hint === 'video' || isVideoFile(url)) return { kind: 'video-file', src: url, thumbSrc: url };
-      if (hint === 'svg' || isSvgFile(url)) return { kind: 'svg', src: url, thumbSrc: url };
-      if (hint === "file") return { kind: "file", src: url, thumbSrc: url };
+      if (hint === 'video' || isVideoFile(url)) return { kind: "video-file", rawUrl: url, src: url, thumbSrc: url };
+      if (hint === 'svg' || isSvgFile(url)) return { kind: "svg", rawUrl: url, src: url, thumbSrc: url };
+      if (hint === "file") return { kind: "file", rawUrl: url, src: url, thumbSrc: url };
       return {
         kind: "image",
+        rawUrl: url,
         src: url + (url.startsWith("http") ? "=s1600" : ""),
         thumbSrc: url + (url.startsWith("http") ? "=s200" : ""),
       };
@@ -60,9 +61,10 @@
 
     var base = 'https://lh3.googleusercontent.com/d/' + id;
     return {
-      kind: hint === 'svg' || isSvgFile(url) ? 'svg' : 'image',
-      src: base + '=s1600', // full-res, only fetched when opened in the lightbox
-      thumbSrc: base + '=s200' // small, fast grid thumbnail
+      kind: hint === "svg" || isSvgFile(url) ? "svg" : "image",
+      rawUrl: url,
+      src: base + "=s1600", // full-res, only fetched when opened in the lightbox
+      thumbSrc: base + "=s200", // small, fast grid thumbnail
     };
   }
 

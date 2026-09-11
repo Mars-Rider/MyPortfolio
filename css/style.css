@@ -9,38 +9,38 @@
 
 :root,
 [data-theme="dark"] {
-  --bg: #14181b;
-  --bg-panel: #1a2024;
-  --bg-panel-2: #212a2f;
-  --line: #2a3438;
-  --line-soft: #212a2e;
-  --text: #e9edec;
-  --text-dim: #a3b0ad;
-  --text-faint: #6d7a78;
+  --bg: hsl(204, 14%, 9%);
+  --bg-panel: hsl(204, 14%, 12%);
+  --bg-panel-2: hsl(204, 14%, 16%);
+  --line: hsl(198, 14%, 20%);
+  --line-soft: hsl(198, 14%, 15%);
+  --text: hsl(166, 10%, 90%);
+  --text-dim: hsl(166, 10%, 75%);
+  --text-faint: hsl(166, 10%, 55%);
 
-  --red: #e33b40;
-  --red-bright: #e2726e;
-  --teal: #049cce;
-  --teal-bright: #57c2d6;
+  --red: hsl(358, 75%, 56%);
+  --red-bright: hsl(358, 80%, 66%);
+  --teal: hsl(195, 96%, 41%);
+  --teal-bright: hsl(195, 86%, 61%);
 
   --shape-fill: rgba(255, 255, 255, 0.045);
   --shadow: rgba(0, 0, 0, 0.5);
 }
 
 [data-theme="light"] {
-  --bg: #f4efe3;
-  --bg-panel: #ece4d2;
-  --bg-panel-2: #e3d9c2;
-  --line: #d8cbac;
-  --line-soft: #ded2b7;
-  --text: #2b2620;
-  --text-dim: #5c5344;
-  --text-faint: #8c8168;
+  --bg: hsl(42, 41%, 90%);
+  --bg-panel: hsl(42, 41%, 87%);
+  --bg-panel-2: hsl(42, 41%, 83%);
+  --line: hsl(42, 36%, 75%);
+  --line-soft: hsl(42, 36%, 80%);
+  --text: hsl(38, 15%, 15%);
+  --text-dim: hsl(38, 15%, 30%);
+  --text-faint: hsl(38, 15%, 50%);
 
-  --red: #e33b40;
-  --red-bright: #c44448;
-  --teal: #049cce;
-  --teal-bright: #1981a3;
+  --red: hsl(358, 75%, 56%);
+  --red-bright: hsl(358, 65%, 46%);
+  --teal: hsl(195, 96%, 41%);
+  --teal-bright: hsl(195, 96%, 31%);
 
   --shape-fill: rgba(60, 50, 30, 0.05);
   --shadow: rgba(60, 50, 30, 0.18);
@@ -71,12 +71,13 @@ body {
   font-size: 17px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 a {
   color: var(--teal-bright);
   text-decoration: none;
+  transition: all 0.15s ease-in-out;
 }
 
 a:hover {
@@ -162,6 +163,7 @@ a:hover {
 
 .brand img {
   width: 35px;
+  transition: all 0.15s ease-in-out;
 }
 
 .brand:hover {
@@ -191,6 +193,7 @@ a:hover {
   border-radius: 50%;
   color: var(--text-dim);
   cursor: pointer;
+  transition: all 0.15s ease-in-out;
 }
 
 .icon-btn:hover {
@@ -223,6 +226,7 @@ a:hover {
   color: var(--text);
   padding: 8px 12px;
   cursor: pointer;
+  transition: all 0.15s ease-in-out;
 }
 
 .menu-toggle:hover {
@@ -230,7 +234,7 @@ a:hover {
 }
 
 .menu-toggle svg {
-  transition: transform 0.18s ease;
+  transition: transform 0.18s ease-in-out;
 }
 
 .menu-toggle[aria-expanded="true"] svg {
@@ -242,7 +246,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   border-bottom: 1px solid transparent;
-  transition: max-height 0.22s ease;
+  transition: max-height 0.22s ease-in-out;
   background: transparent;
 }
 
@@ -287,6 +291,7 @@ a:hover {
   color: var(--text);
   font-weight: 500;
   margin-top: 10px;
+  transition: all 0.15s ease-in-out;
 }
 
 .mega-link:hover {
@@ -306,8 +311,8 @@ a:hover {
 /* ---------- page outline (per-page TOC + section nav) ---------- */
 .outline-toggle {
   position: fixed;
-  left: 25px;
-  top: 85px;
+  left: 20px;
+  top: 75px;
   z-index: 55;
   width: 50px;
   height: 50px;
@@ -328,6 +333,7 @@ a:hover {
   height: 2px;
   background: var(--text-dim);
   display: block;
+  transition: all 0.15s ease-in-out;
 }
 
 .outline-toggle:hover span,
@@ -342,11 +348,11 @@ a:hover {
   bottom: 0;
   width: 290px;
   max-width: 84vw;
-  background: color-mix(in srgb, var(--bg-panel) 50%, transparent);
+  background: color-mix(in srgb, var(--bg-panel) 75%, transparent);
   border-right: 1px solid var(--line-soft);
   z-index: 56;
   transform: translateX(-100%);
-  transition: transform 0.2s ease;
+  transition: transform 0.15s ease;
   display: flex;
   flex-direction: column;
   pointer-events: none;
@@ -380,6 +386,7 @@ a:hover {
   line-height: 1;
   cursor: pointer;
   padding: 2px 6px;
+  transition: all 0.15s ease-in-out;
 }
 
 .outline-close:hover {
@@ -387,6 +394,7 @@ a:hover {
 }
 
 .outline-body {
+  margin-top: 10px;
   padding: 14px 10px 24px;
   overflow-y: auto;
   font-family: var(--mono);
@@ -403,6 +411,7 @@ a:hover {
   border-left: 2px solid transparent;
   color: var(--text-dim);
   border-radius: 0 var(--radius) var(--radius) 0;
+  transition: all 0.15s ease-in-out;
 }
 
 .outline-toc-link:hover {
@@ -446,6 +455,7 @@ a:hover {
   border-left: 2px solid transparent;
   color: var(--text-dim);
   border-radius: 0 var(--radius) var(--radius) 0;
+  transition: all 0.15s ease-in-out;
 }
 
 .outline-sibling-link:hover {
@@ -512,6 +522,8 @@ a:hover {
   line-height: 1.05;
   margin: 0;
   color: var(--text);
+
+  scroll-margin-top: 150px !important;
 }
 
 .hero-title .accent {
@@ -533,6 +545,7 @@ a:hover {
   background: var(--bg-panel);
   border: 1px solid var(--line);
   border-radius: 50%;
+  transition: all 0.15s ease-in-out;
 }
 
 .hero-socials a:hover {
@@ -545,6 +558,7 @@ a:hover {
   opacity: 0.85;
   border: none !important;
   margin-bottom: 10px !important;
+  transition: all 0.15s ease-in-out;
 }
 
 .hero-tagline {
@@ -587,6 +601,7 @@ a:hover {
   stroke: var(--teal);
   stroke-width: 1.4;
   transition: fill 0.15s ease, stroke 0.15s ease;
+  transition: all 0.15s ease-in-out;
 }
 
 .diagram-node:hover .diagram-circle,
@@ -635,6 +650,7 @@ a:hover {
 .landing-links a {
   color: var(--text-dim);
   font-size: 14px;
+  transition: all 0.15s ease-in-out;
 }
 
 .landing-links a:hover {
@@ -661,7 +677,7 @@ a:hover {
   color: var(--text);
   border-bottom: 2px solid var(--red);
   padding-bottom: 14px;
-  scroll-margin-top: 75px;
+  scroll-margin-top: 92px;
 }
 
 .page h2 {
@@ -669,7 +685,7 @@ a:hover {
   font-size: 20px;
   margin: 40px 0 12px;
   color: var(--text);
-  scroll-margin-top: 75px;
+  scroll-margin-top: 92px;
 }
 
 .page h3 {
@@ -677,7 +693,7 @@ a:hover {
   font-size: 16px;
   margin: 28px 0 10px;
   color: var(--teal-bright);
-  scroll-margin-top: 75px;
+  scroll-margin-top: 92px;
 }
 
 .page h4 {
@@ -685,7 +701,7 @@ a:hover {
   font-size: 14px;
   margin: 20px 0 8px;
   color: var(--text-dim);
-  scroll-margin-top: 75px;
+  scroll-margin-top: 92px;
 }
 
 .page p {
@@ -721,7 +737,7 @@ a:hover {
   display: block;
   margin: 10px 0 20px;
   background: var(--bg-panel);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.15s ease-in-out;
 }
 
 .page img:hover {
@@ -828,7 +844,7 @@ a:hover {
   padding: 9px 14px;
   margin: 0 0 20px;
 
-  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: border-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 
 .page a.button-link:hover {
@@ -880,6 +896,19 @@ a:hover {
   border-radius: var(--radius);
   background: var(--bg-panel);
   overflow: hidden;
+  transition: all 0.15s ease-in-out;
+}
+
+.pf-group:hover {
+  border-color: var(--red-bright);
+}
+
+.pf-group:not(.open):hover {
+  transform: scale(1.01);
+}
+
+.pf-group.open {
+  transition: transform 0s;
 }
 
 .pf-group-header {
@@ -896,10 +925,11 @@ a:hover {
   font-size: 15px;
   cursor: pointer;
   text-align: left;
+  transition: all 0.15s ease;
 }
 
-.pf-group-header:hover {
-  background: var(--bg-panel-2);
+.pf-group.open .pf-group-header {
+  background-image: var(--bg-panel) !important;
 }
 
 .pf-group-header .pf-count {
@@ -1012,6 +1042,7 @@ a:hover {
   color: var(--text-dim);
   cursor: pointer;
   margin-left: auto;
+  transition: all 0.15s ease-in-out;
 }
 
 .pf-folder:hover {
@@ -1072,6 +1103,7 @@ a:hover {
   height: 44px;
   border-radius: 50%;
   cursor: pointer;
+  transition: all 0.15s ease-in-out;
 }
 
 .lightbox-nav:hover {

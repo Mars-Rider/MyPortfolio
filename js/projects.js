@@ -132,7 +132,7 @@
       // instead of a flat color — falls back to the flat color above if this
       // gradient syntax isn't supported.
       card.style.backgroundImage =
-        'linear-gradient(color-mix(in srgb, var(--bg-panel) 82%, transparent), color-mix(in srgb, var(--bg-panel) 82%, transparent)), url("' +
+        'linear-gradient(color-mix(in srgb, var(--bg-panel) 80%, transparent), color-mix(in srgb, var(--bg-panel) 80%, transparent)), url("' +
         imageSrc +
         '")';
       card.style.backgroundSize = "cover";
@@ -140,10 +140,10 @@
       card.style.backgroundRepeat = "no-repeat";
     }
 
-    var h3 = document.createElement("h3");
-    h3.textContent = node.title;
-    h3.style.margin = "0";
-    card.appendChild(h3);
+    var h2 = document.createElement("h2");
+    h2.textContent = node.title;
+    h2.style.margin = "0";
+    card.appendChild(h2);
 
     if (summary) {
       var p = document.createElement("p");

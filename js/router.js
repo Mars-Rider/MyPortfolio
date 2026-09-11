@@ -202,6 +202,7 @@
     var header = document.createElement("button");
     header.className = "pf-group-header";
     header.type = "button";
+    header.id = TinyMD.slugify(group.title);
     header.innerHTML =
       "<span>" +
       group.title +
@@ -216,13 +217,18 @@
           '"> <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" > <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg> </a>'
         : "") +
       '<span class="pf-caret">\u25B8</span>';
-    header.addEventListener("click", function () {
+
+    header.addEventListener("click", function (e) {
       el.classList.toggle("open");
     });
     el.appendChild(header);
 
     var body = document.createElement("div");
     body.className = "pf-group-body";
+
+    body.addEventListener("click", function (e) {
+      el.classList.toggle("open");
+    });
 
     if (group.description) {
       var desc = document.createElement("p");
@@ -235,9 +241,7 @@
       var empty = document.createElement("div");
       empty.className = "pf-empty";
       empty.innerHTML =
-        "No photos here yet. Drop files into <code>" +
-        group.folder +
-        "/</code> " +
+        'No photos here yet. Drop files into <code>"items:"</code> in the portfolio json' +
         '(or paste a Google Drive share link as <code>"file"</code>) and add them to the ' +
         "<code>items</code> array for <code>" +
         group.id +
@@ -251,6 +255,24 @@
         grid.appendChild(buildPortfolioItem(entry, resolvedItems, i));
       });
       body.appendChild(grid);
+
+      var coverIndex = 0;
+
+      if(group.coverIndex){
+        coverIndex = group.coverIndex;
+      }
+
+      if (resolvedItems[coverIndex].resolved.rawUrl){
+        header.style.backgroundImage =
+          'linear-gradient(color-mix(in srgb, var(--bg-panel) 85%, transparent), color-mix(in srgb, var(--bg-panel) 85%, transparent)), url("' +
+          resolvedItems[coverIndex].resolved.rawUrl +
+          "=s800" +
+          '")';
+
+        header.style.backgroundSize = "cover";
+        header.style.backgroundPosition = "center";
+        header.style.backgroundRepeat = "no-repeat";
+      }
     }
 
     el.appendChild(body);
@@ -285,8 +307,7 @@
     } else {
       var thumb = document.createElement("img");
       thumb.src = resolved.thumbSrc;
-      console.log(resolved);
-      thumb.alt = entry.caption || entry.groupTitle;
+      thumb.alt = (entry.caption || entry.groupTitle) + "-" + index;
       thumb.loading = "lazy";
       cell.appendChild(thumb);
     }

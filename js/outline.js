@@ -8,7 +8,7 @@
  */
 (function (global) {
   function buildToc(pageEl) {
-    var heads = pageEl.querySelectorAll('h1, h2, h3');
+    var heads = pageEl.querySelectorAll("h1, h2, h3,.pf-group-header");
     var toc = document.createElement('div');
     toc.className = 'outline-toc';
     if (!heads.length) {
@@ -18,7 +18,11 @@
     heads.forEach(function (h) {
       var a = document.createElement('a');
       a.href = '#' + h.id;
-      a.textContent = h.textContent;
+      if(h.tagName === 'BUTTON'){ 
+        a.textContent = h.querySelector("span").firstChild.textContent.trim();
+      } else {
+        a.textContent = h.textContent;
+      }
       a.className = 'outline-toc-link outline-level-' + h.tagName.toLowerCase();
       a.addEventListener('click', function (e) {
         e.preventDefault();

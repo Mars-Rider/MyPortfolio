@@ -51,8 +51,11 @@ This Bike/Desk was made for St. Vincent De Paul for my Eagle Scout Project. The 
 ---
 
 ## Some of My Art
-![Baldy Pano](https://lh3.googleusercontent.com/d/1gf1H1Apam8YT9iInWLNB_48nKQNv-2n2)
+![Baldy Pano](https://lh3.googleusercontent.com/d/1gf1H1Apam8YT9iInWLNB_48nKQNv-2n2){200px}
 ![Baldy River](https://lh3.googleusercontent.com/d/1htMWaL2dNucUyIVjNncHMZQLNSSH7pS-){200px}
+![Taylor](https://lh3.googleusercontent.com/d/1m1S80Dyt0NPq60MTQqYDoxhO_biO3LdY){200px}
+![Lambo](https://lh3.googleusercontent.com/d/1Lt94SLuMCWUs325pzL2IaMku-9VE_GUY){200px}
+![button: R8](https://lh3.googleusercontent.com/d/1r9D-LiMTNy0x3Y2iXEru4oToMKONlgdh){200px}
 
 [button: Check out more of my art](#/art)
 

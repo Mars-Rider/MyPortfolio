@@ -1,10 +1,11 @@
 {
-  "intro": "A collection of all my photos and 3D renders.",
+  "intro": "A collection of all my photos I have taken over the years.",
   "groups": [
     {
       "id": "Backpacking in the Mt Blady Wilderness",
       "title": "Mt Baldy",
       "description": "Photos from my backpacking trip in the Mt Baldy Wilderness with my friends",
+      "coverIndex":30,
       "folder": "https://drive.google.com/drive/folders/1J2WbM1m7gKck6KQKak2NXYIHZxYiSP-g?usp=drive_link",
       "items": [
         {
@@ -275,6 +276,7 @@
     {
       "id": "artemisii",
       "title": "Artemis II",
+      "coverIndex": 4,
       "description": "Photos from the Artemis II mission that I edited.",
       "items": [
         {
@@ -364,6 +366,7 @@
     {
       "id": "highlinejuly4",
       "title": "Highline July 4th",
+      "coverIndex": 4,
       "description": "Photos from the Highline July 4th event.",
       "items": [
         {
@@ -539,6 +542,7 @@
     {
       "id": "taylor2025",
       "title": "Taylor 2025",
+      "coverIndex": 12,
       "description": "Brophy photos from the Taylor 2025 ACA MTB Race.",
       "items": [
         {
@@ -677,6 +681,7 @@
       "id": "noahr8",
       "title": "Noah R8",
       "description": "Photos with Noah R8.",
+      "coverIndex": 24,
       "folder": "https://drive.google.com/drive/folders/1772e9eowNCSmOhFJzLWUkLRU0FABWVdQ?usp=drive_link",
       "items": [
         {
@@ -784,6 +789,7 @@
     {
       "id": "washingtondc",
       "title": "Washington DC",
+      "coverIndex": 14,
       "description": "Photos from my trip to Washington DC.",
       "items": [
         {
@@ -902,6 +908,7 @@
     {
       "id": "hellsent711",
       "title": "Hellsent711",
+      "coverIndex": 14,
       "description": "Photos from the first Hellsent 711 meet.",
       "items": [
         {
