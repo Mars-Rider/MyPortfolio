@@ -32,18 +32,22 @@
     },
     {
       "id": "bikes",
-      "title": "Bike Edits",
-      "description": "Videos I have edited of bikes, mostly from bike shoots and races.",
+      "title": "Bikes Of All Kind",
+      "description": "Videos I have edited of bikes, from mountain bikes to motorcycles, mostly from bike shoots and races.",
       "items": [
         {
           "file": "https://drive.google.com/file/d/1Xz4lXzfsKlpZnrVhBgAscJdNtFRecFRM/view?usp=sharing&export=download",
+          "type": "video"
+        },
+        {
+          "file": "https://drive.google.com/file/d/1VaKX4yDO-SAvbPq7Wj84HCvN4sH5Am7j/view?usp=sharing&export=download",
           "type": "video"
         }
       ]
     },
     {
       "id": "drone",
-      "title": "Drone Videos",
+      "title": "Drones",
       "description": "A collection of drone videos I have edited.",
       "items": [
         {
@@ -55,8 +59,7 @@
           "type": "video"
         }
       ]
-    }
-    ,
+    },
     {
       "id": "randomvids",
       "title": "Random Videos",
