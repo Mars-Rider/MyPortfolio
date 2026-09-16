@@ -226,7 +226,9 @@
     body.className = "pf-group-body";
 
     body.addEventListener("click", function (e) {
-      el.classList.toggle("open");
+      if (e.target.classList.contains("pf-grid")) {
+        el.classList.toggle("open");
+      }
     });
 
     if (group.description) {
