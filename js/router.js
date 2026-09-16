@@ -226,7 +226,7 @@
     body.className = "pf-group-body";
 
     body.addEventListener("click", function (e) {
-      if (e.target.classList.contains("pf-grid")) {
+      if (e.target.tagName !== "IMG") {
         el.classList.toggle("open");
       }
     });
