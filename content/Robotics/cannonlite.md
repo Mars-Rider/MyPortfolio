@@ -8,7 +8,17 @@ A powerful wifi-enabled LED Controller designed to directly communicate with FRC
 
 My goals with this project is to have a rgb controller that can connect to a FRC or FTC control hub and it could change the lights by communicating with the robot and to also have it be standalone and controlled with a website for our T-Shirt Cannon.
 
-## Schematic and PCB
+## Schematic, PCB & BoM
+
+### Schematic
+
+<kicanvas-embed src="https://raw.githubusercontent.com/Mars-Rider/FTC-LightController/main/FTC-LightController.kicad_sch" controls="basic" controlslist="nodownload">> </kicanvas-embed>
+
+### PCB
+
+<kicanvas-embed src="https://raw.githubusercontent.com/Mars-Rider/FTC-LightController/main/FTC-LightController.kicad_pcb" controls="basic" controlslist="nodownload">> </kicanvas-embed>
+
+### BoM
 
 - **Main Microcontroller** ESP8266
 
