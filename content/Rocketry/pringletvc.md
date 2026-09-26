@@ -7,7 +7,8 @@ Unlike traditional model rockets that rely on passive fins for stability, this d
 
 ## Rover TVC
 
-The board powering this
+The board powering the TVC rocket and also the launch stand. 
+It uses a ESP8266 with servo pins and GPIO to write to the servos or set a relay.
 
 ---
 

@@ -29,20 +29,20 @@
 ## Some of My Projects
 
 ### BCP Tracker
-![BCP Tracker Pinout](src/assets/Tracker.png){150px}
+![BCP Tracker Pinout](src/assets/Tracker.png){200px}
 
 This fully custom circuit board uses surface-mount components (SMD) to deliver a compact, affordable, and integrated flight computer and tracking system designed specifically for model rockets. Built to fly on the initial launch of the **Bronc II** rocket, it handles primary flight control, real-time telemetry, and dual-stage recovery deployment.
 
 [button: See the full write-up](#/bcptracker)
 
 ### Pavo 20 Pro Analog
-![Pavo](src/assets/AssemblyLower.png){150px,-150px}
+![Pavo](src/assets/AssemblyLower.png){200px,-150px}
 A DJI O3/O4 Analog Alternative.
 
 [button: See the full write-up](#/pavo-20-pro-analog)
 
 ### St. Vincent De Paul's Desk
-![Bike Desk banner](https://www.stvincentdepaul.net/sites/default/files/styles/full_width/public/2024-04/Hope%20Lens%20-%20May%2024.png?itok=fV00l1JQ){150px}
+![Bike Desk banner](https://www.stvincentdepaul.net/sites/default/files/styles/full_width/public/2024-04/Hope%20Lens%20-%20May%2024.png?itok=fV00l1JQ){200px}
 
 This Bike/Desk was made for St. Vincent De Paul for my Eagle Scout Project. The concept behind it is that while you sit at the desk at work, you can plug in your phone, iPad, or anything else that is controllable from a USB A port. The connected device is charged/powered when you pedal the bike.
 

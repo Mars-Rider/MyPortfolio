@@ -4,7 +4,9 @@
 
 ![Bike Desk](https://www.stvincentdepaul.net/sites/default/files/styles/full_width/public/2024-04/Hope%20Lens%20-%20May%2024.png?itok=fV00l1JQ){400px}
 
-This project was also written about in an article on St Vincent de Paul's website. [button: Check it out here](https://www.stvincentdepaul.net/news/cycling-sustainability)
+This project was also written about in an article on St Vincent de Paul's website. 
+
+[button: Check it out here](https://www.stvincentdepaul.net/news/cycling-sustainability)
 
 **Table of Contents:** Concept · Notes · Versions (V1, V2) · Bill of Materials · Links · Electronics · Mechanical Design
 
