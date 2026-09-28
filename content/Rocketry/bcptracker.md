@@ -49,6 +49,8 @@ Manufactured by PCBWay
 - **PCB Cost:** $5.00
 - **Total For 1 Set:** $142.10
 
+**Note:** Some parts were in limited stock for PCBway and I could have paid less if I wanted to wait a few more weeks. Specifically for the SAM-M8Q, I paid $47 instead of $31 because there was a 2 week lead time vs a 6 week lead time. In short, had I chosen to wait a bit longer or had ordered a bulk order, this flight computer could be much cheaper per board
+
 #### For comparison with other commerial products
 - A FeatherWeight Blue Raven, which is an altimeter+pyro only, costs $175.
 - A FeatherWeight Tracker, which is only a tracker, costs $175
