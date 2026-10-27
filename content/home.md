@@ -23,7 +23,7 @@
 </svg></a>
 </div>
 </div>
-<p class="hero-tagline">A running website will My Projects, from rocketry and robotics to photography and videography</p>
+<p class="hero-tagline">A running website with all my projects/work, from rocketry and robotics to photography and videography</p>
 </div>
 
 ## Some of My Projects
